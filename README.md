@@ -77,6 +77,20 @@ and you can find the boards' source files in [extras/eagle/smartcar_platform](/e
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
 * 4 X [Neopixel](https://www.adafruit.com/product/1312) (optional)
  * 4 x 4pin 2.54 angled headers to mount the sensors vertically
+ 
+ This proposed Hackycar development would alter the platform to allow;
+ 
+ * Mounting of compute modules in Nano ITX dimensions
+ * Mounting for Jetson Nano, Beaglebone or Pi compute modules
+ * Reference implimentation of ROS2/ Linorobot2
+ * Use of MicroMod MCU
+ * Use of Featherwing expansion boards
+ * Use of 3s Lipo batteries
+ * Dual drivers for mecanum drive
+ * Expanded I2C/ SPI connectors
+  
+ ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
 ### Smartcar platform (default setup)
 

@@ -85,7 +85,7 @@ We realise there's no such thing as a universal robot platform, and there are ri
  * One developer interested in supporting ROS2
  * Some experience of PCB design
  
-#### Recruiting volunteer PCB designer for Smartcar 2.0
+### Recruiting volunteer PCB designer for Smartcar 2.0
 
 The Rosmo project is looking for a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
 

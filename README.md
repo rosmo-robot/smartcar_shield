@@ -12,7 +12,7 @@ A versatile and easy to use vehicle platform for hobby-grade projects
 - [Description](#description)
 - [Hardware](#hardware)
 - [Software](#software)
-- [Reference platforms](#reference-platforms)
+- [Smartcar 2.0](#Proposed-Smartcar-2.0-development)
 - [How to get started](#how-to-get-started)
 - [Dependencies](#dependencies)
 - [Project documentation](#project-documentation)
@@ -71,7 +71,7 @@ Licence: CERN-OHL-P
 
  ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
-###Who is it for?
+### Who is it for?
 
 Users could start their robotics with the existing ESP32 based codebase, but later stack an additional RPI or CM4 based compute module on top to run [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#readme) or [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
@@ -79,7 +79,7 @@ It might be interesting to makers, schools or universities.
 
 We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 
-###Status
+### Status
 
  * One developer interested in supporting Smartcar shield Arduino code on it
  * One developer interested in supporting ROS2
@@ -189,7 +189,7 @@ Longer term
  * 100uF capacitor
  * 9V or 12V battery pack (do not use a single 9V battery)
 
-### Supported sensors
+### Supported sensors for version 1.2
  * Distance sensors
     * Ultrasonic
       * HC-SR04

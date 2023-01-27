@@ -51,7 +51,6 @@ wheels have moved but also the direction they spin.
 ## Proposed Smartcar 2.0 development
 
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
  Features;
  
@@ -67,6 +66,9 @@ wheels have moved but also the direction they spin.
  * [UEXT sockets](https://www.olimex.com/Products/Modules/)
  * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
  * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
+
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
+
 
 Users could start their robotics with the existing ESP32 based codebase, but later stack an additional RPI or CM4 based compute module on top to run [PythonRobotics]() or [ROS2/Linorobot2]()
 

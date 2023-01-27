@@ -53,7 +53,29 @@ and you can find the boards' source files in [extras/eagle/smartcar_platform](/e
 
 ## Reference platforms
 
-### Hackycar platform (In development)
+Smartcar 2.0 would enable;
+ 
+ * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
+ * Mounting for Jetson Nano, Beaglebone or Pi compute modules
+ * Reference implimentation of Arduino / Smartcar Library
+ * Reference implimentation of ROS2/ Linorobot2
+ * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
+ * Use of Featherwing expansion boards
+ * Use of 3s Lipo batteries
+ * Dual motor drivers for 4x4 mecanum drive
+ * Mount points for affordable Lidar
+ * [UEXT sockets](https://www.olimex.com/Products/Modules/)
+ * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
+ * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
+
+Users could start their robotics with the existing ESP32 based codebase, but later stack an additional RPI or CM4 based compute module on top to run [PythonRobotics]() or [ROS2/Linorobot2]()
+
+We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
+
+### Smartcar 2.0 BOM (In development)
+
+![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
 * 1 x [Modules board (rev.3)](https://www.pcbway.com/project/shareproject/Smartcar___Modules_board_rev_2.html)
 * 1 x [Motor board (rev. 1)](https://www.pcbway.com/project/shareproject/Smartcar___Motors_board.html)
@@ -78,19 +100,8 @@ and you can find the boards' source files in [extras/eagle/smartcar_platform](/e
 * 4 X [Neopixel](https://www.adafruit.com/product/1312) (optional)
  * 4 x 4pin 2.54 angled headers to mount the sensors vertically
  
- This proposed Hackycar development would alter the platform to allow;
+   
  
- * Mounting of compute modules in Nano ITX dimensions
- * Mounting for Jetson Nano, Beaglebone or Pi compute modules
- * Reference implimentation of ROS2/ Linorobot2
- * Use of MicroMod MCU
- * Use of Featherwing expansion boards
- * Use of 3s Lipo batteries
- * Dual drivers for mecanum drive
- * Expanded I2C/ SPI connectors
-  
- ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
 ### Smartcar platform (default setup)
 

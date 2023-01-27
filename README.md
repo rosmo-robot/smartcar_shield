@@ -50,6 +50,8 @@ wheels have moved but also the direction they spin.
 
 ## Proposed Smartcar 2.0 development
 
+Licence: CERN-OHL-P
+
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
  Features;
@@ -69,7 +71,7 @@ wheels have moved but also the direction they spin.
 
  ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
-Who is it for?
+###Who is it for?
 
 Users could start their robotics with the existing ESP32 based codebase, but later stack an additional RPI or CM4 based compute module on top to run [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#readme) or [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
@@ -77,10 +79,50 @@ It might be interesting to makers, schools or universities.
 
 We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 
+###Status
+
+ * One developer interested in supporting Smartcar shield Arduino code on it
+ * One developer interested in supporting ROS2
+ * Some experience of PCB design
+ 
+#### Recruiting volunteer PCB designer for Smartcar 2.0
+
+The Rosmo project is looking for a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
+
+1) The 'Modules' board
+2) the 'Motor board
+
+What we need is;
+
+- Sanity checking & editing the schematics for each board
+- Sanity checking and proposing amendments to the proposed board layout
+- Laying out and routing the components
+- Producing a second iteration after feedback on initial work
+
+What you recieve
+
+- Your board will be reviewed by two professional PCB designers 
+- You will be attributed on the silk and in all documentation
+- We'll send you both boards once they have been fabbed, so you could build your own bot.
+
+(We don't have any funds, if we did we'd pay you properly)
+
+Assuming we manage to produce something that's of interest to other people the intention is to list the boards on Tindie (fulfilment by Makerfabs) in the unlikely event it ever made any money we'd give you a bit.
+
+Timeline/ Expectations
+
+- It depends.. It's a volunteer project
+- Ideally someone who could give it a bit of attention for a month and do the first round of changes after the expert feedback.
+- After 2.0 goes to fab you're done. No ongoing expectations.
+
+Longer term
+
+- Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
+
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Modules board (rev.3)](https://www.pcbway.com/project/shareproject/Smartcar___Modules_board_rev_2.html)
-* 1 x [Motor board (rev. 1)](https://www.pcbway.com/project/shareproject/Smartcar___Motors_board.html)
+* 1 x [Modules board  TBC (rev.3)]()
+* 1 x [Motor board TBC(rev. 1)]()
 * 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V)
 * 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)
 * 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451)
@@ -103,9 +145,7 @@ We realise there's no such thing as a universal robot platform, and there are ri
  * 4 x 4pin 2.54 angled headers to mount the sensors vertically
  
    
- 
-
-### Smartcar platform (default setup)
+### Smartcar platform v1.2 (default setup)
 
 * 1 x [Modules board (rev.2)](https://www.pcbway.com/project/shareproject/Smartcar___Modules_board_rev_2.html)
 * 1 x [Motor board (rev. 0)](https://www.pcbway.com/project/shareproject/Smartcar___Motors_board.html)

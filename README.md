@@ -58,7 +58,7 @@ Licence: CERN-OHL-P
  
  * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
  * Mounting for Jetson Nano, Beaglebone or Pi compute modules
- * Reference implimentation of Arduino / Smartcar Library
+ * Reference implimentation of Arduino / [Smartcar Library](ht)tps://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of ROS2/ Linorobot2
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
  * Use of Featherwing expansion boards

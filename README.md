@@ -40,20 +40,20 @@ possibilities, as it offers out-of-the-box connectivity.
 
 ![smartcar platform](https://i.imgur.com/cFrq2Wj.jpg)
 
-The Smartcar platform is a complete hardware solution for your hobby-grade, connected vehicle project.
+The existing Smartcar platform is a complete hardware solution for your hobby-grade, connected vehicle project.
 It is comprised of the chassis, made out of printed circuit boards, stacked on each other and an
 ESP32 development board that drives the motors, controls the sensors and communicates with the
 world via WiFi and Bluetooth.
 
 There are 4 motors with directional odometers which enable not only to determine how much the
-wheels have moved but also the direction they spin. It is equipped with a GY-50 gyroscope module
-(based on the L3G4200D sensor) to provide heading information and sockets to optionally connect
-4 `VL45L0X` LIDAR sensors to provide distance measurements. It is powered up by 8 AA batteries
-and you can find the boards' source files in [extras/eagle/smartcar_platform](/extras/eagle/smartcar_shield).
+wheels have moved but also the direction they spin. 
 
-## Reference platforms
+## Proposed Smartcar 2.0 development
 
-Smartcar 2.0 would enable;
+![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+ ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
+
+ Features;
  
  * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
  * Mounting for Jetson Nano, Beaglebone or Pi compute modules
@@ -73,9 +73,6 @@ Users could start their robotics with the existing ESP32 based codebase, but lat
 We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 
 ### Smartcar 2.0 BOM (In development)
-
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
 * 1 x [Modules board (rev.3)](https://www.pcbway.com/project/shareproject/Smartcar___Modules_board_rev_2.html)
 * 1 x [Motor board (rev. 1)](https://www.pcbway.com/project/shareproject/Smartcar___Motors_board.html)

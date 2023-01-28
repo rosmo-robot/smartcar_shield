@@ -48,11 +48,11 @@ world via WiFi and Bluetooth.
 There are 4 motors with directional odometers which enable not only to determine how much the
 wheels have moved but also the direction they spin. 
 
-[Platform V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
+![Platform V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
 
-[Motors V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/encoders.jpg)
+![Motors V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/encoders.jpg)
 
-[Driver V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/driver.jpg)
+![Driver V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/driver.jpg)
 
 ## Proposed Smartcar 2.0 development
 
@@ -132,19 +132,15 @@ Uses may add additional RPI or CM4 based compute module on top to run [PythonRob
 
 The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot. There are a number of single board computers available in the Nano ITX standard including the Ai-64 from Beaglebone
 
-[Ai-64](https://beagleboard.org/static/images/ai64/components.webp)
+![Ai-64](https://beagleboard.org/static/images/ai64/components.webp)
 
 The Pi/Ai-64/Jetson/whatever compute module is connected to the Teensy Micromod board via a USB cable
 
-[Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
+![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 
 It might be interesting to makers, schools or universities.
 
 We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
-
-
-
-
 
 ### Smartcar 2.0 BOM (In development)
 

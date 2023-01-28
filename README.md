@@ -125,17 +125,25 @@ Longer term
 ### Use cases
 
 #### Arduino (Smartcar Shield)
-Users could start their robotics with the existing ESP32 based codebase see detail here
+![ESP32](https://cdn.sparkfun.com//assets/parts/1/5/6/8/0/16781-SparkFun_MicroMod_ESP32_Processor-01.jpg)
+
+Users could start their robotics with the existing ESP32 based codebase [Smartcar Shield](https://github.com/rosmo-robot/smartcar_shield#software)
+
 
 #### Ros2 (Linorobot2)
 
 Uses may add additional RPI or CM4 based compute module on top to run [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#readme) or [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
-The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot. There are a number of single board computers available in the Nano ITX standard including the Ai-64 from Beaglebone
+The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
+![Stack](https://protostack.com.au/wp-content/uploads/CN-SS-10504-1-600x450.jpg)
+
+There are a number of single board computers available in the Nano ITX standard including the Ai-64 from Beaglebone
 
 ![Ai-64](https://media.digikey.com/Photos/Seeed%20Technology%20Ltd/MFG_45-front.jpg)
 
-The Pi/Ai-64/Jetson/whatever compute module is connected to the Teensy Micromod board via a USB cable
+The Pi/Ai-64/Jetson/whatever compute module would then connected to a Teensy Micromod board via a USB cable.
+
+![Teensy](https://cdn.sparkfun.com//assets/parts/1/5/1/3/2/16402-SparkFun_MicroMod_Teensy_Processor-01.jpg)
 
 ![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 

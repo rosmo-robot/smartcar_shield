@@ -58,8 +58,6 @@ wheels have moved but also the direction they spin.
 
 Licence: CERN-OHL-P
 
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
-
  Features;
  
  * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
@@ -75,7 +73,6 @@ Licence: CERN-OHL-P
  * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
  * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
 
- ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
 ### Project Status
 
@@ -89,8 +86,12 @@ Licence: CERN-OHL-P
 
 The Rosmo project is looking for a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
 
-1) The 'Modules' board
-2) the 'Motor board
+1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
+2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, addition of an additional driver
+
+![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
+
+![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
 What we need is;
 
@@ -132,7 +133,7 @@ Uses may add additional RPI or CM4 based compute module on top to run [PythonRob
 
 The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot. There are a number of single board computers available in the Nano ITX standard including the Ai-64 from Beaglebone
 
-![Ai-64](https://beagleboard.org/static/images/ai64/components.webp)
+![Ai-64](https://media.digikey.com/Photos/Seeed%20Technology%20Ltd/MFG_45-front.jpg)
 
 The Pi/Ai-64/Jetson/whatever compute module is connected to the Teensy Micromod board via a USB cable
 

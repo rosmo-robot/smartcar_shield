@@ -48,6 +48,12 @@ world via WiFi and Bluetooth.
 There are 4 motors with directional odometers which enable not only to determine how much the
 wheels have moved but also the direction they spin. 
 
+[Platform V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
+
+[Motors V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/encoders.jpg)
+
+[Driver V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/driver.jpg)
+
 ## Proposed Smartcar 2.0 development
 
 Licence: CERN-OHL-P
@@ -71,20 +77,14 @@ Licence: CERN-OHL-P
 
  ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 
-### Who is it for?
-
-Users could start their robotics with the existing ESP32 based codebase, but later stack an additional RPI or CM4 based compute module on top to run [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#readme) or [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
-
-It might be interesting to makers, schools or universities.
-
-We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
-
-### Status
+### Project Status
 
  * One developer interested in supporting Smartcar shield Arduino code on it
  * One developer interested in supporting ROS2
  * Some experience of PCB design
  
+---------------
+
 ### Recruiting volunteer PCB designer for Smartcar 2.0
 
 The Rosmo project is looking for a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
@@ -118,6 +118,33 @@ Timeline/ Expectations
 Longer term
 
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
+
+----------
+
+### Use cases
+
+#### Arduino (Smartcar Shield)
+Users could start their robotics with the existing ESP32 based codebase see detail here
+
+#### Ros2 (Linorobot2)
+
+Uses may add additional RPI or CM4 based compute module on top to run [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#readme) or [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
+
+The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot. There are a number of single board computers available in the Nano ITX standard including the Ai-64 from Beaglebone
+
+[Ai-64](https://beagleboard.org/static/images/ai64/components.webp)
+
+The Pi/Ai-64/Jetson/whatever compute module is connected to the Teensy Micromod board via a USB cable
+
+[Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
+
+It might be interesting to makers, schools or universities.
+
+We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
+
+
+
+
 
 ### Smartcar 2.0 BOM (In development)
 

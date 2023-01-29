@@ -79,6 +79,7 @@ Licence: CERN-OHL-P
  * One developer interested in supporting Smartcar shield Arduino code on it
  * One developer interested in supporting ROS2
  * Some experience of PCB design
+ * [Template Kicad files](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  
 ---------------
 

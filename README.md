@@ -76,16 +76,17 @@ Licence: CERN-OHL-P
 
 ### Project Status
 
- * One developer interested in supporting Smartcar shield Arduino code on it
+ * One developer interested in supporting Arduino/Smartcar shield 
  * One developer interested in supporting ROS2
  * Some experience of PCB design
  * [Template Kicad files](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
+ * PCB volunteer considering work on the project
  
 ---------------
 
-### Recruiting volunteer PCB designer for Smartcar 2.0
+### Volunteer PCB designer brief for Smartcar 2.0
 
-The Rosmo project is looking for a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
+The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
 
 1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
 2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, addition of an additional driver

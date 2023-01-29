@@ -90,7 +90,7 @@
   (net 13 "MOTOR_R_EN")
   (net 14 "BAT_GND")
 
-  (footprint "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
+  (footprint "Battery:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
     (tedit 59FED667) (tstamp 1339bcbb-2852-4a3c-a2ad-0f706848c250)
     (at 78.74 126.5)
     (descr "Through hole straight pin header, 2x05, 2.00mm pitch, double rows")
@@ -142,7 +142,7 @@
     )
   )
 
-  (footprint "1X08_NO_SILK" (layer "F.Cu")
+  (footprint "Battery:1X08_NO_SILK" (layer "F.Cu")
     (tedit 0) (tstamp 31f1c04f-2d9f-4cee-9df5-c8d25411fd56)
     (at 212.0011 138.6586 90)
     (descr "<h3>Plated Through Hole -8 Pin No Silk</h3>\n<p>Specifications:\n<ul><li>Pin count:8</li>\n<li>Pin pitch:0.1\"</li>\n</ul></p>\n<p>Example device(s):\n<ul><li>CONN_08</li>\n</ul></p>")
@@ -220,7 +220,7 @@
       (net 3 "GND") (solder_mask_margin 0.0508) (tstamp 40c8bb25-f389-4df3-932a-4de6108e1cca))
   )
 
-  (footprint "Module:Adafruit_Feather" (layer "F.Cu")
+  (footprint "Battery:Adafruit_Feather" (layer "F.Cu")
     (tedit 5F71FFF3) (tstamp 34b1af29-0638-44a3-b6c7-bd4ccf3a9b1d)
     (at 120.65 94.0875 -90)
     (descr "Common footprint for the Adafruit Feather series of boards, https://learn.adafruit.com/adafruit-feather/feather-specification")
@@ -300,7 +300,7 @@
     )
   )
 
-  (footprint "Library:NANO-ITX_120X120" (layer "F.Cu")
+  (footprint "Battery:NANO-ITX_120X120" (layer "F.Cu")
     (tedit 63CD3D58) (tstamp 3e4b09f2-693a-4b80-bc98-2416beb6d210)
     (at 209.486 163.641 90)
     (attr through_hole)
@@ -362,7 +362,7 @@
     (pad "P$45" thru_hole circle (at 111.296 -88.826 90) (size 1.308 1.308) (drill oval 0.8) (layers *.Cu *.Mask) (tstamp 28349e24-1e1c-4f47-b518-eb1afac8a4f6))
   )
 
-  (footprint "1X08_NO_SILK" (layer "F.Cu")
+  (footprint "Battery:1X08_NO_SILK" (layer "F.Cu")
     (tedit 0) (tstamp 5feeb350-fd23-4dc6-bab0-a7de6e2fb2c7)
     (at 212.0011 89.1286 90)
     (descr "<h3>Plated Through Hole -8 Pin No Silk</h3>\n<p>Specifications:\n<ul><li>Pin count:8</li>\n<li>Pin pitch:0.1\"</li>\n</ul></p>\n<p>Example device(s):\n<ul><li>CONN_08</li>\n</ul></p>")
@@ -440,7 +440,7 @@
       (solder_mask_margin 0.0508) (tstamp a943d5c0-5304-4b7e-901a-adf0695d1f3e))
   )
 
-  (footprint "M.2-CONNECTOR-E" (layer "F.Cu")
+  (footprint "Battery:M.2-CONNECTOR-E" (layer "F.Cu")
     (tedit 63D0719C) (tstamp 7216d136-d89a-4fb0-a3a6-a4dcf54038cd)
     (at 115.23 134.62 90)
     (attr through_hole)
@@ -1249,7 +1249,7 @@
       ) (tstamp 5a7ebd13-b7dc-43ae-b1c6-5d932a2b9ab9))
   )
 
-  (footprint "clipboard:cf6b2664-2037-41b6-b158-7ee893610716" (layer "F.Cu")
+  (footprint "Battery:cf6b2664-2037-41b6-b158-7ee893610716" (layer "F.Cu")
     (tedit 0) (tstamp 7d44bbb7-21a9-4d9c-ad4d-24d27f967256)
     (at 190.74 146.84)
     (fp_text reference "" (at 0 0) (layer "F.SilkS")
@@ -1870,7 +1870,7 @@
       ) (tstamp 7f6522e6-386f-49ad-b9aa-39179a494cae))
   )
 
-  (footprint "1X08_NO_SILK" (layer "F.Cu")
+  (footprint "Battery:1X08_NO_SILK" (layer "F.Cu")
     (tedit 0) (tstamp 81143ca6-10b2-4a27-9d18-352615975476)
     (at 85.6361 86.5886 90)
     (descr "<h3>Plated Through Hole -8 Pin No Silk</h3>\n<p>Specifications:\n<ul><li>Pin count:8</li>\n<li>Pin pitch:0.1\"</li>\n</ul></p>\n<p>Example device(s):\n<ul><li>CONN_08</li>\n</ul></p>")
@@ -1948,7 +1948,7 @@
       (solder_mask_margin 0.0508) (tstamp cda0133f-3dda-4e23-8fd2-50f94eb413d1))
   )
 
-  (footprint "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
+  (footprint "Battery:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
     (tedit 59FED667) (tstamp a5595651-739a-48fe-9ac9-c7c75d094291)
     (at 78.5 75.24)
     (descr "Through hole straight pin header, 2x05, 2.00mm pitch, double rows")
@@ -2000,7 +2000,7 @@
     )
   )
 
-  (footprint "1X08_NO_SILK" (layer "F.Cu")
+  (footprint "Battery:1X08_NO_SILK" (layer "F.Cu")
     (tedit 0) (tstamp ab40764c-9024-4d64-a744-ece02c11d71b)
     (at 85.6361 141.1986 90)
     (descr "<h3>Plated Through Hole -8 Pin No Silk</h3>\n<p>Specifications:\n<ul><li>Pin count:8</li>\n<li>Pin pitch:0.1\"</li>\n</ul></p>\n<p>Example device(s):\n<ul><li>CONN_08</li>\n</ul></p>")
@@ -2078,7 +2078,7 @@
       (net 3 "GND") (solder_mask_margin 0.0508) (tstamp 428e7317-556b-4406-b30e-c48477333b84))
   )
 
-  (footprint "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
+  (footprint "Battery:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
     (tedit 59FED667) (tstamp c8f1795a-57b1-4f32-8b4f-42fcb6136a73)
     (at 218.44 81.28)
     (descr "Through hole straight pin header, 2x05, 2.00mm pitch, double rows")
@@ -2130,7 +2130,7 @@
     )
   )
 
-  (footprint "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
+  (footprint "Battery:PinHeader_2x05_P2.00mm_Vertical" (layer "F.Cu")
     (tedit 59FED667) (tstamp fe9b1deb-ca97-41cb-a75d-515ffafc9845)
     (at 218.44 121.92)
     (descr "Through hole straight pin header, 2x05, 2.00mm pitch, double rows")

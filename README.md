@@ -91,7 +91,7 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
 2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, addition of an additional driver
 
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/Smartcar2.0.png)
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
 

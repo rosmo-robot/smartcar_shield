@@ -64,7 +64,7 @@ Licence: CERN-OHL-P
  * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
  * Mounting for Jetson Nano, Beaglebone or Pi compute modules
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
- * Reference implimentation of ROS2/ Linorobot2
+ * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
  * Use of Featherwing expansion boards
  * Use of 3s Lipo batteries
@@ -86,14 +86,16 @@ Licence: CERN-OHL-P
 
 ### Smartcar 2.0
 
-The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
+The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's;
 
 1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
 2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, addition of an additional driver
 
+The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
+
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/Smartcar2.0.png)
 
-![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
+![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
 Longer term
 
@@ -101,11 +103,9 @@ Longer term
 
 #### Ros2/ Linorobot2 (With additional Compute module)
 
+![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
-The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
-
-![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 
 We hope Smartcar 2.0 interesting to makers, schools and universities using various [Software stacks](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
 

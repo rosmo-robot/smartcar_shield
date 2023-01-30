@@ -99,23 +99,6 @@ Longer term
 
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
 
-----------
-
-### Use cases
-
-#### Arduino (Smartcar Shield)
-![ESP32](https://cdn.sparkfun.com//assets/parts/1/5/6/8/0/16781-SparkFun_MicroMod_ESP32_Processor-01.jpg)
-
-Users could start their robotics with the existing ESP32 based codebase [Smartcar Shield](https://github.com/rosmo-robot/smartcar_shield#software)
-
-#### Micropython
-
-[Micropython](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
-
-#### Python (With additional Compute module)
-
-[Python](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
-
 #### Ros2/ Linorobot2 (With additional Compute module)
 
 [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
@@ -124,7 +107,7 @@ The robot is designed to be compatible with the Nano ITX standard this means the
 
 ![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 
-We hope Smartcar 2.0 interesting to makers, schools and universities.
+We hope Smartcar 2.0 interesting to makers, schools and universities using various [Software stacks](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
 
 We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 

@@ -60,6 +60,7 @@ Licence: CERN-OHL-P
 
  Features;
  
+ * Supporting variety of [Software](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
  * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
  * Mounting for Jetson Nano, Beaglebone or Pi compute modules
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
@@ -132,10 +133,17 @@ Longer term
 
 Users could start their robotics with the existing ESP32 based codebase [Smartcar Shield](https://github.com/rosmo-robot/smartcar_shield#software)
 
+#### Micropython
 
-#### Ros2 (Linorobot2)
+[Micropython](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
 
-Uses may add additional RPI or CM4 based compute module on top to run [PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics#readme) or [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
+#### Python (With additional Compute module)
+
+[Python](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
+
+#### Ros2/ Linorobot2 (With additional Compute module)
+
+[ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
 The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
 ![Stack](https://protostack.com.au/wp-content/uploads/CN-SS-10504-1-600x450.jpg)

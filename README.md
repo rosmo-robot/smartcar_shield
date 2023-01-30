@@ -166,7 +166,7 @@ We realise there's no such thing as a universal robot platform, and there are ri
 
 * 1 x [Modules board  TBC (rev.3)]() $8.24 bare PCB cost (no fab)
 * 1 x [Motor board TBC(rev. 1)]() $5 bare PCB cost (no fab)
-* 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V) ~$48
+* 4 x [Brushed motors](https://www.aliexpress.com/item/1005001279982165.html) (530rpm @ 12V) ~$33
 * 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451) [~$11](https://www.aliexpress.com/item/1005004427223066.html)
 * 4 x M6 (30mm) screws

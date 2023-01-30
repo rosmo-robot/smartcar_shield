@@ -164,11 +164,11 @@ We realise there's no such thing as a universal robot platform, and there are ri
 
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Modules board  TBC (rev.3)]()
-* 1 x [Motor board TBC(rev. 1)]()
-* 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V)
-* 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)
-* 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451)
+* 1 x [Modules board  TBC (rev.3)]() $8.24 bare PCB cost (no fab)
+* 1 x [Motor board TBC(rev. 1)]() $5 bare PCB cost (no fab)
+* 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V) ~$48
+* 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
+* 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451) [~$11](https://www.aliexpress.com/item/1005004427223066.html)
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
@@ -180,7 +180,7 @@ We realise there's no such thing as a universal robot platform, and there are ri
 * 4 x [8pin 2.54 pitch long male pin headers](https://www.aliexpress.com/item/32911455899.html) (30mm long)
 * 4 x 8pin 2.54 pitch female pin headers
 * 3 x 10KOhm resistors
-* 1 x [3S Lipo battery]()
+* 1 x [3S Lipo battery](https://www.aliexpress.com/item/1005001419560964.html) ~$21
 * 1 x [DD40AJSA adjustable buck converter](https://www.aliexpress.com/item/32816584868.html)
 * 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)

@@ -7,7 +7,7 @@
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/466/badge)](https://bestpractices.coreinfrastructure.org/projects/466)
 [![BCH compliance](https://bettercodehub.com/edge/badge/platisd/smartcar_shield?branch=master)](https://bettercodehub.com/)
 
-A versatile and easy to use vehicle platform for hobby-grade projects
+A versatile and easy to use vehicle platform for hobby & Academic projects
 
 - [Description](#description)
 - [Hardware](#hardware)
@@ -83,9 +83,8 @@ Licence: CERN-OHL-P
  * [Template Kicad files](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  * PCB volunteer considering work on the project
  
----------------
 
-### Volunteer PCB designer brief for Smartcar 2.0
+### Smartcar 2.0
 
 The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's for this open hardware project;
 
@@ -95,30 +94,6 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/dual-driver.png)
-
-
-What we need is;
-
-- Sanity checking & editing the schematics for each board
-- Sanity checking and proposing amendments to the proposed board layout
-- Laying out and routing the components
-- Producing a second iteration after feedback on initial work
-
-What you recieve
-
-- Your board will be reviewed by two professional PCB designers 
-- You will be attributed on the silk and in all documentation
-- We'll send you both boards once they have been fabbed, so you could build your own bot.
-
-(We don't have any funds, if we did we'd pay you properly)
-
-Assuming we manage to produce something that's of interest to other people the intention is to list the boards on Tindie (fulfilment by Makerfabs) in the unlikely event it ever made any money we'd give you a bit.
-
-Timeline/ Expectations
-
-- It depends.. It's a volunteer project
-- Ideally someone who could give it a bit of attention for a month and do the first round of changes after the expert feedback.
-- After 2.0 goes to fab you're done. No ongoing expectations.
 
 Longer term
 
@@ -146,19 +121,10 @@ Users could start their robotics with the existing ESP32 based codebase [Smartca
 [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
 The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
-![Stack](https://protostack.com.au/wp-content/uploads/CN-SS-10504-1-600x450.jpg)
-
-There are a number of single board computers available in the Nano ITX standard including the Ai-64 from Beaglebone
-
-![Ai-64](https://media.digikey.com/Photos/Seeed%20Technology%20Ltd/MFG_45-front.jpg)
-
-The Pi/Ai-64/Jetson/whatever compute module would then connected to a Teensy Micromod board via a USB cable.
-
-![Teensy](https://cdn.sparkfun.com//assets/parts/1/5/1/3/2/16402-SparkFun_MicroMod_Teensy_Processor-01.jpg)
 
 ![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 
-It might be interesting to makers, schools or universities.
+We hope Smartcar 2.0 interesting to makers, schools and universities.
 
 We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 

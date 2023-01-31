@@ -61,18 +61,17 @@ Licence: CERN-OHL-P
  Features;
  
  * Supporting variety of [Software](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
- * Mounting space for Pi,Jetson Nano,[AI-64](https://beagleboard.org/ai-64) or similar
- * Mounting for Jetson Nano, Beaglebone or Pi compute modules
+ * Mounting space for Pi,Jetson Nano, [AI-64](https://beagleboard.org/ai-64) or similar
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
- * Use of Featherwing expansion boards
+ * Use of [Featherwing](https://github.com/adafruit/awesome-feather#featherwings) expansion boards
  * Use of 3s Lipo batteries
  * Dual motor drivers for 4x4 mecanum drive
- * Mount points for affordable Lidar
  * [UEXT sockets](https://www.olimex.com/Products/Modules/)
  * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
  * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
+ * Optional Mount plate for [affordable Lidar](https://github.com/n1kn4x/xv11_lidar_python#ros-2-driver-for-xv-11-lidar)
 
 
 ### Project Status
@@ -91,8 +90,6 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
 2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, addition of an additional driver
 
-The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
-
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
@@ -105,7 +102,6 @@ Longer term
 
 ![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
-
 
 We hope Smartcar 2.0 interesting to makers, schools and universities using various [Software stacks](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
 
@@ -125,7 +121,6 @@ We realise there's no such thing as a universal robot platform, and there are ri
 * 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
 * 10 x 6pin 2.54 pitch female pin headers
 * 2 x 15pin 2.54 pitch female pin headers
-* 1 x [MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) gyroscope
 * 4 x [8pin 2.54 pitch long male pin headers](https://www.aliexpress.com/item/32911455899.html) (30mm long)
 * 4 x 8pin 2.54 pitch female pin headers
 * 3 x 10KOhm resistors
@@ -137,10 +132,9 @@ We realise there's no such thing as a universal robot platform, and there are ri
 * 1 X [GY-50 IMU]() (Optional)
 * 1 X [BNO-85 IMU]() Optional
 
- * 4 x 4pin 2.54 angled headers to mount the sensors vertically
- 
+
    
-### Smartcar platform v1.2 (default setup)
+### Older Smartcar platform v1.2 (default setup)
 
 * 1 x [Modules board (rev.2)](https://www.pcbway.com/project/shareproject/Smartcar___Modules_board_rev_2.html)
 * 1 x [Motor board (rev. 0)](https://www.pcbway.com/project/shareproject/Smartcar___Motors_board.html)

@@ -61,7 +61,7 @@ Licence: CERN-OHL-P
  Features;
  
  * Supporting variety of [Software](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
- * 12cm x 12cm Nano ITX  footprint for [AI-64](https://beagleboard.org/ai-64) or similar
+ * Mounting space for Pi,Jetson Nano,[AI-64](https://beagleboard.org/ai-64) or similar
  * Mounting for Jetson Nano, Beaglebone or Pi compute modules
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)

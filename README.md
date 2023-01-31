@@ -93,7 +93,7 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 
 The robot is designed to be compatible with the Nano ITX standard this means there are holes at ~12cm x 12cm spacing which are used with standoffs to create a robust stacking robot.
 
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/Smartcar2.0.png)
+![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
@@ -134,6 +134,9 @@ We realise there's no such thing as a universal robot platform, and there are ri
 * 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
 * 4 X [Neopixel](https://www.adafruit.com/product/1312) (optional)
+* 1 X [GY-50 IMU]() (Optional)
+* 1 X [BNO-85 IMU]() Optional
+
  * 4 x 4pin 2.54 angled headers to mount the sensors vertically
  
    

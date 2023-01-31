@@ -36,7 +36,7 @@ enabled ESP32 as the vehicle's "brain". This setup will be referred to as `platf
 will be considered the default one from now on. It offers greater robustness and many more
 possibilities, as it offers out-of-the-box connectivity.
 
-### Platform
+### Smartcar 1.0 (Current)
 
 ![smartcar platform](https://i.imgur.com/cFrq2Wj.jpg)
 
@@ -54,7 +54,7 @@ wheels have moved but also the direction they spin.
 
 ![Driver V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/driver.jpg)
 
-## Proposed Smartcar 2.0 development
+## Smartcar 2.0 (In development)
 
 Licence: CERN-OHL-P
 

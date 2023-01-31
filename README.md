@@ -125,7 +125,7 @@ We realise there's no such thing as a universal robot platform, and there are ri
 * 4 x 8pin 2.54 pitch female pin headers
 * 3 x 10KOhm resistors
 * 1 x [3S Lipo battery](https://www.aliexpress.com/item/1005001419560964.html) ~$21
-* 1 x [DD40AJSA adjustable buck converter](https://www.aliexpress.com/item/32816584868.html)
+* 1 x [External buck converter](https://www.aliexpress.com/item/1005003593209704.html)
 * 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
 * 4 X [Neopixel](https://www.adafruit.com/product/1312) (optional)

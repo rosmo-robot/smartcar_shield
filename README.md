@@ -65,7 +65,7 @@ Licence: CERN-OHL-P
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
- * Use of [Featherwing](https://github.com/adafruit/awesome-feather#featherwings) expansion boards
+ * Support for the I2C/SPI [Featherwings](https://github.com/adafruit/awesome-feather#featherwings), including [Airlift](https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/pinouts) 
  * Use of 3s Lipo batteries
  * Dual motor drivers for 4x4 mecanum drive
  * [UEXT sockets](https://www.olimex.com/Products/Modules/)

@@ -88,9 +88,11 @@ Licence: CERN-OHL-P
 The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's;
 
 1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
-2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, addition of an additional driver
 
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
+
+2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, additional motor driver to enable mecanum drive
+
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 

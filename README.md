@@ -112,8 +112,8 @@ We realise there's no such thing as a universal robot platform, and there are ri
 
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Modules board  TBC (rev.3)]() $8.24 bare PCB cost (no fab)
-* 1 x [Motor board TBC(rev. 1)]() $5 bare PCB cost (no fab)
+* 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $8.24 bare PCB cost (no fab)
+* 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005001279982165.html) (530rpm @ 12V) ~$33
 * 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451) [~$11](https://www.aliexpress.com/item/1005004427223066.html)
@@ -127,13 +127,13 @@ We realise there's no such thing as a universal robot platform, and there are ri
 * 4 x [8pin 2.54 pitch long male pin headers](https://www.aliexpress.com/item/32911455899.html) (30mm long)
 * 4 x 8pin 2.54 pitch female pin headers
 * 3 x 10KOhm resistors
-* 1 x 3S Lipo battery [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html)
+* 1 x 3S Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html)
 * 1 x [External buck converter](https://www.aliexpress.com/item/1005003593209704.html)
 * 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
-* 4 X [Neopixel](https://www.adafruit.com/product/1312) (optional)
-* 1 X [GY-50 IMU]() (Optional)
-* 1 X [BNO-85 IMU]() Optional
+* 2 X [Neopixel](https://www.adafruit.com/product/1312) (optional)
+* 1 X [GY-50 IMU](https://www.aliexpress.com/item/32651955982.html) (Optional)
+* 1 X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
 
 Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    

@@ -10,9 +10,10 @@
 A versatile and easy to use vehicle platform for hobby & Academic projects
 
 - [Description](#description)
-- [Hardware](#hardware)
-- [Software](#software)
+- [Smartcar 1.0](#smartcar-10-current)
 - [Smartcar 2.0](#Proposed-Smartcar-2.0-development)
+- [Arduino Software](#software)
+- [Compute modules](#compute-modules--software)
 - [How to get started](#how-to-get-started)
 - [Dependencies](#dependencies)
 - [Project documentation](#project-documentation)
@@ -100,27 +101,6 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 Longer term
 
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
-
-#### Compute modules & software
-
-We intend to develop some scripts for setting up robotics software on commonly used compute modules
-
-The supported hardware might include; Pi4, Jetson Nano, Beaglebone Ai-64, and the adxa CM5 in a Pinoura carrier.
-
-All these modules should run Ubuntu 22.04 LTS. 
-
-Installed software might include
-
- - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics)
- - [Python app providing a Webui for teleop](https://github.com/DIT112-V19/group-03) 
- - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
- - [Rosboard](https://github.com/dheera/rosboard#rosboard)
- - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
- - [Wetty](https://github.com/butlerx/wetty)
- - Some demo computer vision code
-
-Linorobot:
-![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 
 We hope Smartcar 2.0 interesting to makers, schools and universities using various [Software stacks](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
 
@@ -242,8 +222,8 @@ The emulator allows limiting the unavoidable engagement with the physical car, t
 team of developers may develop their features on the emulator and only access the real hardware
 to verify them.
 
-## Software
-The software, is the Smartcar shield Arduino library. It sports a high level API, meant to
+## Arduino Software
+The software for V1 and Microcontroller use is the Smartcar shield Arduino library. It sports a high level API, meant to
 enable its users to perform tasks easily with relatively few lines of code. It intends to
 hide implementation details or low level hardware operations. The library, handles
 the various components (i.e. the vehicle and the various sensors) as objects, therefore
@@ -263,7 +243,6 @@ in order to drive (throttle) the vehicle, using the very same library.
 If the Smartcar shield library is installed through the Library Manager of Arduino IDE, as
 recommended, the user will receive a notification in their IDE, when new versions are released
 making updates particularly easy, without the need to use GitHub or git.
-
 
 ## How to get started
  * Assemble the vehicle
@@ -285,5 +264,31 @@ All dependencies should be downloaded automatically by the Arduino IDE's library
 * [Wiki](https://github.com/platisd/smartcar_shield/wiki)
 * [Turning software engineers into Makers](https://platis.solutions/blog/2016/06/17/turning-software-engineers-into-makers/)
 
+#### Compute modules 
+
+We intend to develop some scripts for setting up robotics software on commonly used compute modules which can be added to the basic microcontroller based platform
+
+The supported hardware may include; 
+
+- Pi4, 
+- Jetson Nano, 
+- Beaglebone Ai-64, 
+- Radxa CM5 in a Pinoura carrier.
+
+All these modules should run Ubuntu 22.04 LTS. 
+
+Installed software may include
+
+ - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics)
+ - [Python app providing a Webui for teleop](https://github.com/DIT112-V19/group-03) 
+ - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
+ - [Rosboard](https://github.com/dheera/rosboard#rosboard)
+ - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
+ - [Wetty](https://github.com/butlerx/wetty)
+ - Some demo computer vision code
+
+Linorobot:
+![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
+
 ## License
-MIT
+MIT & CERN-OHL-P for Smartcar 2.0 hardware

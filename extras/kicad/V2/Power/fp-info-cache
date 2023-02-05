@@ -1,4 +1,4 @@
-21675120942139786
+21678472157285855
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87521,6 +87521,13 @@ potentiometer
 3
 3
 Z_mycustom_footprint_lib
+AI-64
+
+
+0
+0
+0
+Z_mycustom_footprint_lib
 ATS120SM
 crystal
 
@@ -87632,6 +87639,13 @@ Hole 0.6mm ( 2 holes )
 0
 2
 2
+Z_mycustom_footprint_lib
+Inductor SMD,11.6x10.1x4mm
+
+
+0
+0
+0
 Z_mycustom_footprint_lib
 JGA25-370 DC motor
 

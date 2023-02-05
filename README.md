@@ -60,7 +60,7 @@ Licence: CERN-OHL-P
 
  Features;
  
- * Supporting variety of [Software](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
+ * Supporting variety of [Software](https://rosmo-robot.github.io/learn-robotics/)
  * Mounting space for Pi,Jetson Nano, [AI-64](https://beagleboard.org/ai-64) or similar
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
@@ -101,10 +101,26 @@ Longer term
 
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
 
-#### Ros2/ Linorobot2 (With additional Compute module)
+#### Compute modules & software
 
+We intend to develop some scripts for setting up robotics software on commonly used compute modules
+
+The supported hardware might include; Pi4, Jetson Nano, Beaglebone Ai-64, and the adxa CM5 in a Pinoura carrier.
+
+All these modules should run Ubuntu 22.04 LTS. 
+
+Installed software might include
+
+ - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics)
+ - [Python app providing a Webui for teleop](https://github.com/DIT112-V19/group-03) 
+ - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
+ - [Rosboard](https://github.com/dheera/rosboard#rosboard)
+ - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
+ - [Wetty](https://github.com/butlerx/wetty)
+ - Some demo computer vision code
+
+Linorobot:
 ![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
-[ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
 
 We hope Smartcar 2.0 interesting to makers, schools and universities using various [Software stacks](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
 

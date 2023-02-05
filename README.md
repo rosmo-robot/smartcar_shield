@@ -14,9 +14,6 @@ A versatile and easy to use vehicle platform for hobby & Academic projects
 - [Smartcar 2.0](#Proposed-Smartcar-2.0-development)
 - [Arduino Software](#software)
 - [Compute modules](#compute-modules--software)
-- [How to get started](#how-to-get-started)
-- [Dependencies](#dependencies)
-- [Project documentation](#project-documentation)
 - [License](#license)
 
 ## Description

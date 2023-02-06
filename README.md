@@ -270,7 +270,7 @@ The supported hardware may include;
 - Pi4, 
 - Jetson Nano, 
 - [Beaglebone Ai-64](https://beagleboard.org/ai-64) 
-- [Radxa CM5](https://wiki.radxa.com/Rock5/CM) in a [Pinoura carrier](https://www.makerfabs.com/piunora-raspberry-pi-cm4-carrier-board.html).
+- [Radxa CM5](https://wiki.radxa.com/Rock5/CM) in a [carrier](https://github.com/dronecz/Minimal_carrier_board_for_CM4/tree/main/rev_C).
 
 All these modules should run Ubuntu 22.04 LTS. 
 

@@ -117,21 +117,19 @@ Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield
 ### Microcontrollers
 The robot can have different microcontrollers inserted into the Micromod socket depending on the use case.
 
-#### Esp32 Micromod
+### Esp32 (Micromod)
 - Used with [Smartcar Library](https://github.com/platisd/smartcar_shield#software)
 - May also support [Microblocks](https://microblocks.fun/) 
 
 Used as standalone devices for basic robot control, or connected to the GPIO of a Single Board Computer for more complex programing.
 
-#### Teensy Micromod
+### Teensy (Micromod)
 
 - Used for ROS2. Runs MicroROS. Connected to the USB of a Single board computer.
 
-#### Single Board Computers (SBC)
+### Single Board Computers (SBC)
 
-We intend to develop some scripts for setting up robotics software on commonly used Single Board Computers which can be added to the basic microcontroller based platform.
-
-The OS will be Ubuntu 22.04 LTS. 
+We intend to develop some scripts for setting up robotics software on commonly used Single Board Computers which can be added to the basic microcontroller based platform. The OS will be Ubuntu 22.04 LTS. 
 
 The supported hardware may include; 
 

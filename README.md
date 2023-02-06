@@ -45,8 +45,8 @@ Licence: CERN-OHL-P
 
  Features;
  
- * Supporting variety of [Software](https://rosmo-robot.github.io/learn-robotics/)
- * Mounting space for Pi,Jetson Nano, [AI-64](https://beagleboard.org/ai-64) or similar
+ * Supporting variety of [Software](https://github.com/rosmo-robot/smartcar_shield#microcontrollers)
+ * Mounting space for SBC; Pi,Jetson Nano, [AI-64](https://beagleboard.org/ai-64) or similar
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
@@ -114,37 +114,42 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    
 
-#### Microcontrollers
+### Microcontrollers
+The robot can have different microcontrollers inserted into the Micromod socket depending on the use case.
 
-##### Esp32
+#### Esp32 Micromod
 - Used with [Smartcar Library](https://github.com/platisd/smartcar_shield#software)
 - May also support [Microblocks](https://microblocks.fun/) 
 
-##### Teensy
-- Used for ROS2. Runs MicroROS. Connection to SBC is via USB
+Used as standalone devices for basic robot control, or connected to the GPIO of a Single Board Computer for more complex programing.
+
+#### Teensy Micromod
+
+- Used for ROS2. Runs MicroROS. Connected to the USB of a Single board computer.
 
 #### Single Board Computers (SBC)
 
 We intend to develop some scripts for setting up robotics software on commonly used Single Board Computers which can be added to the basic microcontroller based platform.
 
+The OS will be Ubuntu 22.04 LTS. 
+
 The supported hardware may include; 
 
-- Pi4, 
-- Jetson Nano, 
+- Pi4
+- Jetson Nano
 - [Beaglebone Ai-64](https://beagleboard.org/ai-64) 
 - [Radxa CM5](https://wiki.radxa.com/Rock5/CM) in a [carrier](https://github.com/dronecz/Minimal_carrier_board_for_CM4/tree/main/rev_C).
 
-All these modules will run Ubuntu 22.04 LTS. 
-
 Installed software may include
 
- - [LGPIO](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview) & [script to set up GPIO](http://4tronix.co.uk/pi2go2/ipd03.py)
+ - Block editor code (TBC)
  - [Pyrobots](https://www.csc.liv.ac.uk/~lad/pyrobots/exercises.html) configuration script
  - [Python app providing a Webui for teleop](https://github.com/DIT112-V19/group-03) Pi GPIO > Micromod.  
  - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics) Pi GPIO > Micromod
  - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2) USB > Micromod
  - [Rosboard](https://github.com/dheera/rosboard#rosboard) USB > Micromod
  - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit) USB > Micromod
+  - [LGPIO](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview) & [script to set up GPIO](http://4tronix.co.uk/pi2go2/ipd03.py)
  - [Wetty](https://github.com/butlerx/wetty) with [Kaa](http://kaaedit.github.io/)
  - Some demo computer vision code
 

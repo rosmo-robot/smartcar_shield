@@ -277,11 +277,11 @@ All these modules should run Ubuntu 22.04 LTS.
 Installed software may include
 
  - [LGPIO](https://ubuntu.com/tutorials/gpio-on-raspberry-pi#1-overview) & [script to set up GPIO](http://4tronix.co.uk/pi2go2/ipd03.py)
- - [Python app providing a Webui for teleop](https://github.com/DIT112-V19/group-03)  - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics)
- - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics)
- - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
- - [Rosboard](https://github.com/dheera/rosboard#rosboard)
- - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
+ - [Python app providing a Webui for teleop](https://github.com/DIT112-V19/group-03) Pi GPIO > Micromod.  
+ - [Python Robotics](https://github.com/AtsushiSakai/PythonRobotics) Pi GPIO > Micromod
+ - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2) USB > Micromod
+ - [Rosboard](https://github.com/dheera/rosboard#rosboard) USB > Micromod
+ - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit) USB > Micromod
  - [Wetty](https://github.com/butlerx/wetty) with [Kaa](http://kaaedit.github.io/)
  - Some demo computer vision code
 

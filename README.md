@@ -9,7 +9,6 @@
 
 A versatile and easy to use vehicle platform for hobby & Academic projects
 
-- [Description](#description)
 - [Smartcar 1.0](#smartcar-10-current)
 - [Smartcar 2.0](#Proposed-Smartcar-2.0-development)
 - [Microcontrollers](#Microcontrollers)
@@ -117,11 +116,11 @@ Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield
 
 #### Microcontrollers
 
-#####Esp32
+##### Esp32
 - Used with [Smartcar Library](https://github.com/platisd/smartcar_shield#software)
 - May also support [Microblocks](https://microblocks.fun/) 
 
-#####Teensy
+##### Teensy
 - Used for ROS2. Runs MicroROS. Connection to SBC is via USB
 
 #### Single Board Computers (SBC)

@@ -281,7 +281,7 @@ Installed software may include
  - [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  - [Rosboard](https://github.com/dheera/rosboard#rosboard)
  - [Visual circuit](https://github.com/JdeRobot/VisualCircuit#visual-circuit)
- - [Wetty](https://github.com/butlerx/wetty)
+ - [Wetty](https://github.com/butlerx/wetty) with [Kaa](http://kaaedit.github.io/)
  - Some demo computer vision code
 
 Linorobot:

@@ -1,4 +1,4 @@
-# Smartcar shield
+# Smartcar shield 2.0
 
 ![Tests](https://github.com/platisd/smartcar_shield/workflows/Tests/badge.svg)
 ![Examples](https://github.com/platisd/smartcar_shield/workflows/Examples/badge.svg)
@@ -44,7 +44,7 @@ ESP32 development board that drives the motors, controls the sensors and communi
 world via WiFi and Bluetooth.
 
 There are 4 motors with directional odometers which enable not only to determine how much the
-wheels have moved but also the direction they spin. 
+wheels have moved but also the direction they spin. See [Smartcar 1.0 documentation](https://github.com/platisd/smartcar_shield#smartcar-shield)
 
 ![Platform V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
 
@@ -155,111 +155,14 @@ Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
   * 4 x 4pin 2.54 angled headers to mount the sensors vertically
 
-### Smartcar shield
+#### Microcontrollers
 
- * Smartcar chassis
- * [Smartcar shield PCB](extras/eagle/smartcar_shield)
- * L293D H-bridge
- * GY-50 gyroscope module
- * Two odometers (speed encoders) ([[1]](http://www.aliexpress.com/item/5pcs-IR-Infrared-Slotted-Optical-Speed-Measuring-Sensor-Optocoupler-Module-For-Motor-Test-For-Arduino-PIC/32465670452.html)
- and [[2]](http://www.aliexpress.com/item/HC-020K-Double-Speed-Measuring-Sensor-Module-with-Photoelectric-Encoders-Kit-top/32453020060.html)
- will suit commercially available chassis.
- [[3]](http://www.aliexpress.com/item/Correlation-photoelectric-sensor-lot-Infrared-correlation-count-sensor-module/2038553959.html)
- require some slight modifications)
- * Male & female pin headers (optionally get stackable Arduino headers too)
- * Five 2-pin screw terminals
- * Pin jumper
- * DIP16 socket
- * 0.1uF capacitors (2)
- * 100uF capacitor
- * 9V or 12V battery pack (do not use a single 9V battery)
+#####Esp32
+- Used with [Smartcar Library](https://github.com/platisd/smartcar_shield#software)
+- May also support [Microblocks](https://microblocks.fun/) 
 
-### Supported sensors for version 1.2
- * Distance sensors
-    * Ultrasonic
-      * HC-SR04
-      * SRF08
-    * Infrared
-      * SHARP GP2D120
-      * SHARP GP2Y0A02
-      * SHARP GP2Y0A21
- * Gyroscopes
-   * GY-50 (L3G4200D)
- * Odometers
-   * Directional (4+ pins)
-   * Non-directional (3-pins)
-
-### Shield
-
-![smartcar_shield](https://i.imgur.com/7g5ts49.png)
-
-The Smartcar shield is an open hardware PCB, that is effortlessly stacked on top of an Arduino. It
-includes an L293D H-bridge chip, that drives the motors, screw terminals to connect the motors
-and a battery to them and a GY-50 gyroscope module (based on the L3G4200D sensor).
-In [extras/eagle/smartcar_shield](/extras/eagle/smartcar_shield) you can find the
-design files for the board, in a modifiable form, using free software. There are
-also the options, to order it as-is, from either USA or China based manufacturers.
-
-The Smartcar shield, facilitates efficient cable management, helps to preserve space
-and is as small as possible, in order to keep the manufacturing price low. Additionally,
-the components necessary to assemble it, are widely available over the Internet. Furthermore,
-you can find 2D CAD drawings of the Smartcar chassis in various formats, at
-[/extras/cad/2D](extras/cad/2D) which you can freely use in order to fabricate your own,
-e.g. with a milling machine or a laser cutter.
-
-### Emulator
-
-[SMCE](https://github.com/ItJustWorksTM/smce-gd/) is the digital twin of the Smartcar platform
-along with a cool and customisable 3D world for your rover to roam in.<br>
-The core concept is that you write Arduino code that runs on both the real hardware as well as
-the virtual environment.
-This way, the need to have exclusive and frequent access to the car can be either alleviated
-or drastically decreased.
-The emulator allows limiting the unavoidable engagement with the physical car, to the point a
-team of developers may develop their features on the emulator and only access the real hardware
-to verify them.
-
-## Arduino Software
-The software for V1 and Microcontroller use is the Smartcar shield Arduino library. It sports a high level API, meant to
-enable its users to perform tasks easily with relatively few lines of code. It intends to
-hide implementation details or low level hardware operations. The library, handles
-the various components (i.e. the vehicle and the various sensors) as objects, therefore
-enabling trivial control over the car's functions. The various operations exposed by the API,
-are thoroughly explained in [API Documentation](https://platisd.github.io/smartcar_shield/).
-You can find examples on how to use the library, in [/examples](/examples).
-
-The library is versatile and is independent from the shield or specific hardware.
-Particularly, its most important feature is that it supports multiple ways of steering and
-throttling with different types of motors. Moreover, it is possible to steer the vehicle by
-rotating the wheels on each side at a different speed, like a tank as well as by using a
-servo motor. Another option is to use a brushed DC motor for steering, a setup that is very
-common in cheap RC cars. Additionally, apart of the default brushed DC motors that are
-connected to the Smartcar shield, you can also use an electronic speed controller (ESC)
-in order to drive (throttle) the vehicle, using the very same library.
-
-If the Smartcar shield library is installed through the Library Manager of Arduino IDE, as
-recommended, the user will receive a notification in their IDE, when new versions are released
-making updates particularly easy, without the need to use GitHub or git.
-
-## How to get started
- * Assemble the vehicle
- * [Install the library](https://www.ardu-badge.com/Smartcar%20shield)
- * [Connect the motors appropriately](examples/Car/shieldMotorsTest/shieldMotorsTest.ino) (if using the shield)
- * [Getting started with the Smartcar Platform](https://www.hackster.io/platisd/getting-started-with-the-smartcar-platform-1648ad)
-
-## Dependencies
-All dependencies should be downloaded automatically by the Arduino IDE's library manager.
-
-- [Wire library](http://arduino.cc/en/reference/Wire)
-- [Servo library](https://www.arduino.cc/en/reference/servo)
-- [ServoESP32](https://github.com/RoboticsBrno/ServoESP32)
-- [ESP32 AnalogWrite](https://github.com/ERROPiX/ESP32_AnalogWrite)
-
-## Project documentation
-* [API Documentation](https://platisd.github.io/smartcar_shield/)
-* [The Smartcar platform](http://plat.is/smartcar)
-* [Wiki](https://github.com/platisd/smartcar_shield/wiki)
-* [Turning software engineers into Makers](https://platis.solutions/blog/2016/06/17/turning-software-engineers-into-makers/)
+#####Teensy
+- Used for ROS2. Runs MicroROS. Connection to SBC is via USB
 
 #### Single Board Computers (SBC)
 

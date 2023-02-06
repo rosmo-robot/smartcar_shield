@@ -17,24 +17,10 @@ A versatile and easy to use vehicle platform for hobby & Academic projects
 - [License](#license)
 
 ## Description
-This repository, includes everything necessary to set up a Smartcar platform.
-The Smartcar, is a vehicular educational platform, which enables the user to develop
-various robotic applications in an affordable, pedagogic and easy way. It is intended
-for persons with basic programming knowledge and little to no experience of electronics,
-mechanics or robotics. More experienced users, should also find this approach convenient,
-due to its open source nature, high level API and object oriented design.
+This repository, includes everything necessary to set up a Smartcar 2.0.
+The Smartcar, is a vehicular educational platform, which enables the user to develop various robotic applications in an affordable, pedagogic and easy way. It is intended to be accessible for persons with basic programming knowledge and little to no experience of electronics. It additionally supports the needs of more experienced uses.
 
-## Hardware
-Despite the software being hardware-agnostic, historically, development has been based on specific
-hardware. Initially, the **Smartcar shield** was used on top of an Arduino, using cheap car kits.
-This setup will be referred to as `shield` or `v1`.
-
-Since the winter of 2019, a new platform was developed from scratch, using the WiFi and Bluetooth
-enabled ESP32 as the vehicle's "brain". This setup will be referred to as `platform` or `v2` and
-will be considered the default one from now on. It offers greater robustness and many more
-possibilities, as it offers out-of-the-box connectivity.
-
-### Smartcar 1.0 (Current)
+### Smartcar 1.0 (Existing)
 
 ![smartcar platform](https://i.imgur.com/cFrq2Wj.jpg)
 
@@ -45,6 +31,8 @@ world via WiFi and Bluetooth.
 
 There are 4 motors with directional odometers which enable not only to determine how much the
 wheels have moved but also the direction they spin. See [Smartcar 1.0 documentation](https://github.com/platisd/smartcar_shield#smartcar-shield)
+
+The Smartcar 2.0 project is a redesign of the hardware, retaining software compatibility with the orginal platform, but adding additional hardware interfaces and additional supported software.
 
 ![Platform V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
 

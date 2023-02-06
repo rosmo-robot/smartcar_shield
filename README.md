@@ -12,13 +12,13 @@ A versatile and easy to use vehicle platform for hobby & Academic projects
 - [Description](#description)
 - [Smartcar 1.0](#smartcar-10-current)
 - [Smartcar 2.0](#Proposed-Smartcar-2.0-development)
-- [Arduino Software](#software)
-- [Compute modules](#compute-modules--software)
+- [Microcontrollers](#Microcontrollers)
+- [Single Board Computers](#Single-Board-Computers (SBC))
 - [License](#license)
 
 ## Description
 This repository, includes everything necessary to set up a Smartcar 2.0.
-The Smartcar, is a vehicular educational platform, which enables the user to develop various robotic applications in an affordable, pedagogic and easy way. It is intended to be accessible for persons with basic programming knowledge and little to no experience of electronics. It additionally supports the needs of more experienced uses.
+The Smartcar, is a vehicular educational platform, which enables the user to develop various robotic applications in an affordable, pedagogic and easy way. It is intended to be accessible for persons with basic programming knowledge and little to no experience of electronics. It additionally supports the needs of more experienced users.
 
 ### Smartcar 1.0 (Existing)
 
@@ -64,13 +64,11 @@ Licence: CERN-OHL-P
 ### Project Status
 
  * One developer interested in supporting Arduino/Smartcar shield 
+ * One developer intereste in supporting Python
  * One developer interested in supporting ROS2
- * Some experience of PCB design
- * [Template Kicad files](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
- * PCB volunteer starting work on the project
+ * PCB volunteer working on the project
+ * [Kicad files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  
-
-### Smartcar 2.0
 
 The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's;
 
@@ -78,7 +76,7 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 
 ![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
 
-2) the 'Motor board - Largely unchanged mechanically from the V1 board you see above, additional motor driver to enable mecanum drive
+2) the 'Motors' board - Additional motor driver to enable mecanum drive
 
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
@@ -87,9 +85,7 @@ Longer term
 
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
 
-We hope Smartcar 2.0 interesting to makers, schools and universities using various [Software stacks](https://github.com/samuk/learn-robotics/blob/master/README.MD#objectives)
-
-We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
+We hope Smartcar 2.0 interesting to makers, schools and universities. We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 
 ### Smartcar 2.0 BOM (In development)
 
@@ -118,30 +114,6 @@ We realise there's no such thing as a universal robot platform, and there are ri
 
 Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    
-### Older Smartcar platform v1.2 (default setup)
-
-* 1 x [Modules board (rev.2)](https://www.pcbway.com/project/shareproject/Smartcar___Modules_board_rev_2.html)
-* 1 x [Motor board (rev. 0)](https://www.pcbway.com/project/shareproject/Smartcar___Motors_board.html)
-* 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V)
-* 2 x [TXS0108E TTL level shifters](https://www.aliexpress.com/item/32472491036.html)
-* 1 x DOIT ESP32 devkit v1 (30 GPIO pins)
-* 1 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451)
-* 4 x M6 (30mm) screws
-* 4 x M6 nuts
-* 16 x M3 (10mm) screws
-* 16 x M3 nuts
-* 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
-* 10 x 6pin 2.54 pitch female pin headers
-* 2 x 15pin 2.54 pitch female pin headers
-* 1 x GY-50 gyroscope
-* 4 x [8pin 2.54 pitch long male pin headers](https://www.aliexpress.com/item/32911455899.html) (30mm long)
-* 4 x 8pin 2.54 pitch female pin headers
-* 3 x 10KOhm resistors
-* 8 x [AA battery holders](https://www.electrokit.com/produkt/batterihallare-1xaa-pcb/)
-* 1 x [DD40AJSA adjustable buck converter](https://www.aliexpress.com/item/32816584868.html)
-* 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
-* 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
-  * 4 x 4pin 2.54 angled headers to mount the sensors vertically
 
 #### Microcontrollers
 

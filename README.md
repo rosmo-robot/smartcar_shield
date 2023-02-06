@@ -261,9 +261,9 @@ All dependencies should be downloaded automatically by the Arduino IDE's library
 * [Wiki](https://github.com/platisd/smartcar_shield/wiki)
 * [Turning software engineers into Makers](https://platis.solutions/blog/2016/06/17/turning-software-engineers-into-makers/)
 
-#### Compute modules 
+#### Single Board Computers (SBC)
 
-We intend to develop some scripts for setting up robotics software on commonly used compute modules which can be added to the basic microcontroller based platform
+We intend to develop some scripts for setting up robotics software on commonly used Single Board Computers which can be added to the basic microcontroller based platform.
 
 The supported hardware may include; 
 
@@ -272,7 +272,7 @@ The supported hardware may include;
 - [Beaglebone Ai-64](https://beagleboard.org/ai-64) 
 - [Radxa CM5](https://wiki.radxa.com/Rock5/CM) in a [carrier](https://github.com/dronecz/Minimal_carrier_board_for_CM4/tree/main/rev_C).
 
-All these modules should run Ubuntu 22.04 LTS. 
+All these modules will run Ubuntu 22.04 LTS. 
 
 Installed software may include
 

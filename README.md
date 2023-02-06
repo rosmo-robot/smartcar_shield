@@ -62,9 +62,9 @@ Licence: CERN-OHL-P
 
 ### Project Status
 
- * One developer interested in supporting Arduino/Smartcar shield 
- * One developer intereste in supporting Python
- * One developer interested in supporting ROS2
+ * One developer interested in supporting [Arduino/Smartcar shield](https://github.com/platisd/smartcar_shield#software) 
+ * One developer interested in supporting Python
+ * One developer interested in [supporting ROS2](https://adityakamath.github.io/projects/)
  * PCB volunteer working on the project
  * [Kicad files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  

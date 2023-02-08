@@ -98,12 +98,11 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 16 x M3 (10mm) screws
 * 16 x M3 nuts
 * 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
-* 10 x 6pin 2.54 pitch female pin headers
 * 2 x 15pin 2.54 pitch female pin headers
-* 4 x [8pin 2.54 pitch long male pin headers](https://www.aliexpress.com/item/32911455899.html) (30mm long)
+* 2 x [40pin 2.54 pitch long male pin headers]()
 * 4 x 8pin 2.54 pitch female pin headers
 * 3 x 10KOhm resistors
-* 1 x 3S [LifeO4](https://www.westlondonmodels.com/product/topfuel-lipo-20c-eco-x-2400mah-3s-xt60-plug) 105 x 33 x 25 or Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html)
+* 1 x 3S [LifePO4 -recommended](https://www.westlondonmodels.com/product/topfuel-lipo-20c-eco-x-2400mah-3s-xt60-plug) 105 x 33 x 25 or potentially dangerous Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21 
 * 1 x [External buck converter](https://www.aliexpress.com/item/1005003593209704.html)
 * 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)

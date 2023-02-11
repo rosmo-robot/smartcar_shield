@@ -65,7 +65,7 @@ Licence: CERN-OHL-P
  * One developer interested in supporting [Arduino/Smartcar shield](https://github.com/platisd/smartcar_shield#software) 
  * One developer interested in supporting Python
  * One developer interested in [supporting ROS2](https://adityakamath.github.io/projects/)
- * PCB volunteer working on the project
+ * PCB volunteer working on the project, motors board complete
  * [Kicad files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  
 
@@ -90,7 +90,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 * 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $8.24 bare PCB cost (no fab)
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
-* 4 x [Brushed motors](https://www.aliexpress.com/item/1005001279982165.html) (530rpm @ 12V) ~$33
+* 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V) ~$33
 * 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451) [~$11](https://www.aliexpress.com/item/1005004427223066.html)
 * 4 x M6 (30mm) screws

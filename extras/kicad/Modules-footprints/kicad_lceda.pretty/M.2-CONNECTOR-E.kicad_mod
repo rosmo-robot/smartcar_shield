@@ -1,0 +1,593 @@
+(module M.2-CONNECTOR-E (layer F.Cu) (tedit 63E6C048) 
+ (fp_text reference REF** (at 0 -3.207) (layer F.SilkS) 
+   (effects (font (size 1 1) (thickness 0.15)) (justify left))) 
+ (fp_text value std:2c8cdfe4edcc4a30889f3135251f483b (at 0 -0.667) (layer F.Fab) 
+   (effects (font (size 1 1) (thickness 0.15)) (justify left))) 
+ (pad "" np_thru_hole circle (at 10 0) (size 1.1 1.1) (drill 1.1) (layers *.Cu *.Mask)) 
+ (pad "" np_thru_hole circle (at -10 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask)) 
+ (pad 1 np_thru_hole custom (at 9.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad A1 smd custom (at 10.35 4.5 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.6 -1.375) (xy 0.6 -1.375) (xy 0.6 1.375) (xy -0.6 1.375)) (width 0.12)) 
+    )) 
+ (pad A2 smd custom (at -10.35 4.5 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.6 -1.375) (xy 0.6 -1.375) (xy 0.6 1.375) (xy -0.6 1.375)) (width 0.12)) 
+    )) 
+ (pad 2 np_thru_hole custom (at 9 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 3 np_thru_hole custom (at 8.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 4 np_thru_hole custom (at 8.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 5 np_thru_hole custom (at 8.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 6 np_thru_hole custom (at 8 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 7 np_thru_hole custom (at 7.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 8 np_thru_hole custom (at 7.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 9 np_thru_hole custom (at 7.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 10 np_thru_hole custom (at 7 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 11 np_thru_hole custom (at 6.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 12 np_thru_hole custom (at 6.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 13 np_thru_hole custom (at 6.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 14 np_thru_hole custom (at 6 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 15 np_thru_hole custom (at 5.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 16 np_thru_hole custom (at 5.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 17 np_thru_hole custom (at 5.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 18 np_thru_hole custom (at 5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 19 np_thru_hole custom (at 4.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 20 np_thru_hole custom (at 4.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 21 np_thru_hole custom (at 4.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 22 np_thru_hole custom (at 4 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 23 np_thru_hole custom (at 3.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 32 np_thru_hole custom (at 1.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 33 np_thru_hole custom (at 1.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 34 np_thru_hole custom (at 1 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 35 np_thru_hole custom (at 0.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 36 np_thru_hole custom (at 0.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 37 np_thru_hole custom (at 0.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 38 np_thru_hole custom (at 0 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 39 np_thru_hole custom (at -0.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 40 np_thru_hole custom (at -0.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 41 np_thru_hole custom (at -0.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 42 np_thru_hole custom (at -1 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 43 np_thru_hole custom (at -1.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 44 np_thru_hole custom (at -1.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 45 np_thru_hole custom (at -1.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 46 np_thru_hole custom (at -2 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 47 np_thru_hole custom (at -2.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 48 np_thru_hole custom (at -2.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 49 np_thru_hole custom (at -2.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 50 np_thru_hole custom (at -3 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 51 np_thru_hole custom (at -3.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 52 np_thru_hole custom (at -3.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 53 np_thru_hole custom (at -3.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 54 np_thru_hole custom (at -4 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 55 np_thru_hole custom (at -4.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 56 np_thru_hole custom (at -4.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 57 np_thru_hole custom (at -4.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 58 np_thru_hole custom (at -5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 59 np_thru_hole custom (at -5.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 60 np_thru_hole custom (at -5.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 61 np_thru_hole custom (at -5.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 62 np_thru_hole custom (at -6 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 63 np_thru_hole custom (at -6.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 64 np_thru_hole custom (at -6.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 65 np_thru_hole custom (at -6.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 66 np_thru_hole custom (at -7 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 67 np_thru_hole custom (at -7.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 68 np_thru_hole custom (at -7.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 69 np_thru_hole custom (at -7.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 70 np_thru_hole custom (at -8 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 71 np_thru_hole custom (at -8.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 72 np_thru_hole custom (at -8.5 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 73 np_thru_hole custom (at -8.75 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 74 np_thru_hole custom (at -9 -2.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (pad 75 np_thru_hole custom (at -9.25 5.275 180) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.15 -0.775) (xy 0.15 -0.775) (xy 0.15 0.775) (xy -0.15 0.775)) (width 0.12)) 
+    )) 
+ (fp_line (start 9.5 -2.5) (end -9.5 -2.5) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start -10.95 -1.25) (end -10.95 5.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start -10.95 5.25) (end 10.95 5.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start 10.95 5.25) (end 10.95 -1.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start 11 2.5) (end 11 -1.25) (layer F.SilkS) (width 0.152)) 
+ (fp_line (start 11 -1.25) (end 9.5 -1.25) (layer F.SilkS) (width 0.152)) 
+ (fp_line (start -9.5 -1.25) (end -11 -1.25) (layer F.SilkS) (width 0.152)) 
+ (fp_line (start -11 2.5) (end -11 -1.25) (layer F.SilkS) (width 0.152)) 
+ (fp_line (start 9.925 1.75) (end 3.225 1.75) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start 2.025 1.75) (end -9.925 1.75) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start -9.925 1.75) (end -9.925 -1.75) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start 9.925 -1.75) (end 9.925 1.75) (layer Dwgs.User) (width 0.051)) 
+ (fp_arc (start 10.436 -1.741) (end 9.925 -1.75) (angle 84.95700483977735) (layer Dwgs.User) (width 0.051)) 
+ (fp_arc (start -10.441 -1.735) (end -9.925 -1.75) (angle -83.8260998432708) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start 10 -20.25) (end -10 -20.25) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start -11 -19.25) (end -11 -2.85) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start 3.225 -1.15) (end 3.225 1.75) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start 2.025 -1.15) (end 2.025 1.75) (layer Dwgs.User) (width 0.051)) 
+ (fp_arc (start 2.625 -1.15) (end 2.025 -1.15) (angle 180) (layer Dwgs.User) (width 0.051)) 
+ (fp_line (start 11 -19.25) (end 11 -2.85) (layer Dwgs.User) (width 0.05)) 
+ (fp_arc (start 10.383 -2.867) (end 11 -2.85) (angle 86.79198661562566) (layer Dwgs.User) (width 0.05)) 
+ (fp_arc (start -10.383 -2.867) (end -10.4 -2.25) (angle 86.79198661562566) (layer Dwgs.User) (width 0.05)) 
+ (fp_arc (start 9.975 -19.225) (end 11 -19.25) (angle -87.19550417350133) (layer Dwgs.User) (width 0.05)) 
+ (fp_arc (start -9.975 -19.225) (end -10 -20.25) (angle -87.19550417350133) (layer Dwgs.User) (width 0.05)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_arc (start 4 -20.246) (end 7 -20.243) (angle 359.85931944600543) (layer Dwgs.User) (width 0.05)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_poly (pts) (layer Dwgs.User) (width 0.12)) 
+ (fp_line (start 10.95 -1.25) (end 9.5 -1.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start 9.5 -1.25) (end -9.5 -1.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start -9.5 -1.25) (end -10.95 -1.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start -9.5 -2.5) (end -9.5 -1.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start 9.5 -2.5) (end 9.5 -1.25) (layer Dwgs.User) (width 0.152)) 
+ (fp_line (start -11.076 -23.25) (end 11.076 -23.25) (layer F.CrtYd) (width 0.152)) 
+ (fp_line (start 11.076 -23.25) (end 11.076 6.15) (layer F.CrtYd) (width 0.152)) 
+ (fp_line (start 11.076 6.15) (end -11.076 6.15) (layer F.CrtYd) (width 0.152)) 
+ (fp_line (start -11.076 6.15) (end -11.076 -23.25) (layer F.CrtYd) (width 0.152)) 
+ 
+)

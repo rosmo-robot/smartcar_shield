@@ -1,0 +1,59 @@
+(module "QWIIC 4PIN" (layer F.Cu) (tedit 63E6C048) 
+ (fp_text reference REF** (at 0 -3.207) (layer F.SilkS) 
+   (effects (font (size 1 1) (thickness 0.15)) (justify left))) 
+ (fp_text value std:9143eaa068d54095aae4574fb7d7349c (at 0 -0.667) (layer F.Fab) 
+   (effects (font (size 1 1) (thickness 0.15)) (justify left))) 
+ (fp_line (start -1.5 2.763) (end 1.5 2.763) (layer F.SilkS) (width 0.254)) 
+ (fp_line (start -3 0.163) (end -3 -1.488) (layer F.SilkS) (width 0.254)) 
+ (fp_line (start -3 -1.488) (end -2.25 -1.488) (layer F.SilkS) (width 0.254)) 
+ (fp_line (start 2.25 -1.488) (end 3 -1.488) (layer F.SilkS) (width 0.254)) 
+ (fp_line (start 3 -1.488) (end 3 0.163) (layer F.SilkS) (width 0.254)) 
+ (pad 4 smd custom (at 1.5 -1.837) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.3 -0.675) (xy 0.3 -0.675) (xy 0.3 0.675) (xy -0.3 0.675)) (width 0.12)) 
+    )) 
+ (pad 3 smd custom (at 0.5 -1.837) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.3 -0.675) (xy 0.3 -0.675) (xy 0.3 0.675) (xy -0.3 0.675)) (width 0.12)) 
+    )) 
+ (pad 2 smd custom (at -0.5 -1.837) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.3 -0.675) (xy 0.3 -0.675) (xy 0.3 0.675) (xy -0.3 0.675)) (width 0.12)) 
+    )) 
+ (pad 1 smd custom (at -1.5 -1.837) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.3 -0.675) (xy 0.3 -0.675) (xy 0.3 0.675) (xy -0.3 0.675)) (width 0.12)) 
+    )) 
+ (pad NC1 smd custom (at 2.8 1.837) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.6 -1) (xy 0.6 -1) (xy 0.6 1) (xy -0.6 1)) (width 0.12)) 
+    )) 
+ (pad NC2 smd custom (at -2.8 1.837) (size 0.102 0.102) (drill 0) (layers F.Cu F.Paste F.Mask) 
+   (zone_connect 0) (options (clearance outline) (anchor circle)) 
+   (primitives 
+     (gr_poly 
+       (pts 
+         (xy -0.6 -1) (xy 0.6 -1) (xy 0.6 1) (xy -0.6 1)) (width 0.12)) 
+    )) 
+ (fp_arc (start -2.5 -2.138) (end -2.393 -2.045) (angle 319.06777571051543) (layer F.SilkS) (width 0.4)) 
+ (fp_line (start -3.41 -2.506) (end 3.398 -2.506) (layer F.CrtYd) (width 0.152)) 
+ (fp_line (start 3.398 -2.506) (end 3.398 2.853) (layer F.CrtYd) (width 0.152)) 
+ (fp_line (start 3.398 2.853) (end -3.41 2.853) (layer F.CrtYd) (width 0.152)) 
+ (fp_line (start -3.41 2.853) (end -3.41 -2.506) (layer F.CrtYd) (width 0.152)) 
+ 
+)

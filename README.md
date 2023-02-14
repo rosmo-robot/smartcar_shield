@@ -88,26 +88,18 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $8.24 bare PCB cost (no fab)
+* 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
 * 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V) ~$33
 * 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
-* 2 x [TB6612FNG dual motor driver (Sparkfun)](https://www.sparkfun.com/products/14451) [~$11](https://www.aliexpress.com/item/1005004427223066.html)
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
 * 16 x M3 nuts
 * 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
-* 2 x 15pin 2.54 pitch female pin headers
 * 2 x [40pin 2.54 pitch long male pin headers]()
-* 4 x 8pin 2.54 pitch female pin headers
-* 3 x 10KOhm resistors
 * 1 x 3S [LifePO4 -recommended](https://www.westlondonmodels.com/product/topfuel-lipo-20c-eco-x-2400mah-3s-xt60-plug) 105 x 33 x 25 or potentially dangerous Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21 
-* 1 x [External buck converter](https://www.aliexpress.com/item/1005003593209704.html)
-* 1 x [SPDT switch](https://www.tme.eu/en/details/5ms1s102am2qe/slide-switches/)
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
-* 2 X [Neopixel](https://www.adafruit.com/product/1312) (optional)
-* 1 X [GY-50 IMU](https://www.aliexpress.com/item/32651955982.html) (Optional)
 * 1 X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
 
 Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 

@@ -367,8 +367,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "Control.step",
+      "vrml": "Control.wrl"
     },
     "page_layout_descr_file": ""
   },

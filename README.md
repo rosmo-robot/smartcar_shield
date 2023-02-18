@@ -51,7 +51,7 @@ Licence: CERN-OHL-P
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
  * Support for the I2C/SPI [Featherwings](https://github.com/adafruit/awesome-feather#featherwings), including [Airlift](https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/pinouts) 
- * Use of 3s Lipo batteries
+ * Use of 4s LifePO4 or 3s Lipo batteries
  * Dual motor drivers for 4x4 mecanum drive
  * [UEXT sockets](https://www.olimex.com/Products/Modules/)
  * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
@@ -98,7 +98,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 16 x M3 nuts
 * 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
 * 2 x [40pin 2.54 pitch long male pin headers]()
-* 1 x 3S [LifePO4 -recommended](https://www.pulsebattery.com/products/pulse-3800mah-3s-9-9v-25c-receiver-lifepo4-battery-xt60-connector) 105 x 33 x 25 or potentially dangerous Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21
+* 1 x 4S [LifePO4 -recommended](https://www.pulsebattery.com/collections/all-batteries?page=1&rb_snize_facet1=4S%2014.8V%7C4S%2015.2V&rb_snize_facet4=1001-2000mAh%7C2001-3000mAh%7C3001-4000mAh) 105 x 33 x 25 or potentially dangerous 3S Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21
 
 ### Optional sensors
 

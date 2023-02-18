@@ -91,24 +91,25 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
 * 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V) ~$33
-* 1 x [ESP32 Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
+* 1 x [ESP32/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
 * 16 x M3 nuts
 * 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
 * 2 x [40pin 2.54 pitch long male pin headers]()
-* 1 x 3S [LifePO4 -recommended](https://www.westlondonmodels.com/product/topfuel-lipo-20c-eco-x-2400mah-3s-xt60-plug) 105 x 33 x 25 or potentially dangerous Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21 
+* 1 x 3S [LifePO4 -recommended](https://www.westlondonmodels.com/product/topfuel-lipo-20c-eco-x-2400mah-3s-xt60-plug) 105 x 33 x 25 or potentially dangerous Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21
+
+### Optional sensors
+
 * 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
 * - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) Optional
 * - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) Optional
 * - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
 * - X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
 
-
-Photos of [sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
+Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    
-
 ### Microcontrollers
 The robot can have different microcontrollers inserted into the Micromod socket depending on the use case.
 

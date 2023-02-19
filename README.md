@@ -96,9 +96,10 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
 * 16 x M3 nuts
-* 2 x [HSP 02052 Front Bumper](https://www.aliexpress.com/item/32753903115.html)
 * 2 x [40pin 2.54 pitch long male pin headers]()
 * 1 x 4S [LifePO4 -recommended](https://www.pulsebattery.com/collections/all-batteries?page=1&rb_snize_facet1=4S%2014.8V%7C4S%2015.2V&rb_snize_facet4=1001-2000mAh%7C2001-3000mAh%7C3001-4000mAh) 105 x 33 x 25 or potentially dangerous 3S Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21
+* 2 x [Front Bumper](https://www.aliexpress.com/item/1005005024927428.html)
+
 
 ### Optional sensors
 

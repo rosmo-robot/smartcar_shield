@@ -1,0 +1,78 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100n,C_0603_1608Metric,68.5,-101.6,0.0,bottom
+C2,100n,C_0603_1608Metric,72.2,-101.6,180.0,bottom
+C3,22u,C_0805_2012Metric,79.1,-108.85,270.0,bottom
+C4,100n,C_0603_1608Metric,117.6,-106.9,180.0,bottom
+C5,100n,C_0603_1608Metric,118.675,-90.1,0.0,bottom
+C6,22u,C_0805_2012Metric,121.9,-92.4,0.0,bottom
+C7,22u,C_0805_2012Metric,121.9,-90.3,0.0,bottom
+C8,100n,C_0603_1608Metric,115.4,-90.1,0.0,bottom
+C9,22u,C_0805_2012Metric,109.55,-107.45,270.0,bottom
+C10,22u,C_0805_2012Metric,111.6,-107.45,270.0,bottom
+C11,100n,C_0603_1608Metric,122.0,-106.9,180.0,bottom
+C12,100n,C_0603_1608Metric,100.225,-123.7,270.0,bottom
+C13,47u,C_1206_3216Metric,91.025,-128.4,270.0,bottom
+C14,100n,C_0603_1608Metric,93.025,-128.2,270.0,bottom
+C15,47u,C_1206_3216Metric,104.5,-136.5,0.0,bottom
+C16,1n5,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,98.7,-134.3,90.0,bottom
+C17,47u,C_1206_3216Metric,109.3,-141.3,180.0,bottom
+C18,47u,C_1206_3216Metric,104.5,-138.9,0.0,bottom
+C19,47u,C_1206_3216Metric,104.48,-141.32,0.0,bottom
+C20,47u,C_1206_3216Metric,109.3,-138.89,180.0,bottom
+C21,100n,C_0603_1608Metric,104.4,-143.3,0.0,bottom
+C22,47u,C_1206_3216Metric,109.3,-136.5,180.0,bottom
+C23,100n,C_0603_1608Metric,104.025,-78.395,90.0,bottom
+C24,47u,C_1206_3216Metric,113.125,-73.895,90.0,bottom
+C25,100n,C_0603_1608Metric,111.125,-73.895,90.0,bottom
+C26,1n5,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,104.6,-67.1,0.0,bottom
+C27,47u,C_1206_3216Metric,98.8,-67.9,180.0,bottom
+C28,47u,C_1206_3216Metric,98.8,-65.5,180.0,bottom
+C29,47u,C_1206_3216Metric,98.8,-63.1,180.0,bottom
+C30,47u,C_1206_3216Metric,98.8,-60.7,180.0,bottom
+C31,47u,C_1206_3216Metric,93.8,-63.1,0.0,bottom
+C32,47u,C_1206_3216Metric,93.8,-65.5,0.0,bottom
+C33,47u,C_1206_3216Metric,93.8,-67.9,0.0,bottom
+C34,100n,C_0603_1608Metric,94.6,-61.1,0.0,bottom
+C35,22u,C_0805_2012Metric,77.0,-105.4,90.0,bottom
+C36,22u,C_0805_2012Metric,74.9,-105.4,90.0,bottom
+C37,22u,C_0805_2012Metric,79.11,-105.4,90.0,bottom
+C38,22u,C_0805_2012Metric,74.9,-108.85,270.0,bottom
+C39,22u,C_0805_2012Metric,76.99,-108.85,270.0,bottom
+D1,D,D_SMA,95.525,-123.5,180.0,bottom
+D2,D,D_SMA,108.725,-78.495,0.0,bottom
+F1,Polyfuse,Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder,46.1,-106.8,90.0,bottom
+FID1,Fiducial,Fiducial_0.5mm_Mask1mm,94.4,-136.9,0.0,top
+H5,Motor,JGA25-370 DC motor,70.0,-70.0,90.0,bottom
+H6,Motor,JGA25-370 DC motor,160.0,-70.0,90.0,bottom
+H7,Motor,JGA25-370 DC motor,160.0,-140.0,270.0,bottom
+H8,Motor,JGA25-370 DC motor,70.0,-140.0,270.0,bottom
+J1,Conn_01x02,AMASS_XT60-M_1x02_P7.20mm_Vertical,60.6,-113.2,180.0,top
+J2,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,137.45,-74.2,0.0,bottom
+J3,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,113.75,-65.9,180.0,bottom
+J4,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,120.4,-130.5,180.0,bottom
+J5,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,134.15,-138.9,0.0,bottom
+J6,left,PinHeader_2x20_P2.54mm_Vertical,91.0,-57.0,90.0,top
+J7,right,PinHeader_2x20_P2.54mm_Vertical,91.0,-150.0,90.0,top
+J8,Conn_01x05,PinHeader_1x05_P2.54mm_Vertical,48.4,-85.2,-45.0,top
+J9,Conn_01x05,PinHeader_1x05_P2.54mm_Vertical,48.5,-127.8,-135.0,top
+L1,15u,"Inductor SMD,11.6x10.1x4mm",107.025,-128.15,270.0,bottom
+L2,15u,"Inductor SMD,11.6x10.1x4mm",97.125,-76.195,90.0,bottom
+R1,10k,R_0603_1608Metric,114.0,-100.6,180.0,bottom
+R2,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-112.9,180.0,bottom
+R3,10k,R_0603_1608Metric,100.3,-134.3,90.0,bottom
+R4,10k,R_0603_1608Metric,104.7,-68.7,0.0,bottom
+R5,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,99.4,-131.7,0.0,bottom
+R6,3k3,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,104.8,-70.3,180.0,bottom
+R7,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-108.2,180.0,bottom
+R8,10k,R_0603_1608Metric,114.01,-102.25,180.0,bottom
+R9,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-110.5,180.0,bottom
+R10,15k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,96.2,-133.4,0.0,bottom
+R11,150k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,104.6,-65.5,180.0,bottom
+R12,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-105.9,180.0,bottom
+R13,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-103.6,180.0,bottom
+SW1,SW_SPST,SPST Solder Plug Swith,53.8,-101.2,0.0,top
+U1,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,119.8,-84.4,270.0,bottom
+U2,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,117.4,-112.6,90.0,bottom
+U3,TPS5430DDAR,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias,97.625,-128.1,0.0,bottom
+U4,TPS5430DDAR,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias,106.525,-73.895,180.0,bottom
+U5,INA219AxD,SOIC-8_3.9x4.9mm_P1.27mm,69.8,-96.9,270.0,bottom

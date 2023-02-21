@@ -20,7 +20,7 @@ left,J6,PinHeader_2x20_P2.54mm_Vertical,C5124634
 Conn_01x05,J9,PinHeader_1x05_P2.54mm_Vertical,C225491
 right,J7,PinHeader_2x20_P2.54mm_Vertical,C5124634
 Conn_01x02,J1,AMASS_XT60-M_1x02_P7.20mm_Vertical,C98733
-Polyfuse,F1,Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder,???
+Polyfuse,F1,Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder,C910847
 Screw_Terminal_01x06,J3,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,C2838107
 Screw_Terminal_01x06,J5,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,C2838107
 Screw_Terminal_01x06,J4,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,C2838107

@@ -103,7 +103,8 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Optional sensors
 
-* 4 x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
+* - x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
+* - X [Ultrasonic RCL-1601](https://www.aliexpress.com/w/wholesale-RCWL%2525252d1601.html) (optional)
 * - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) Optional
 * - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) Optional
 * - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional

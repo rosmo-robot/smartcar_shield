@@ -5,7 +5,6 @@
 ![Documentation](https://github.com/platisd/smartcar_shield/workflows/Documentation/badge.svg)
 [![codecov](https://codecov.io/gh/platisd/smartcar_shield/branch/master/graph/badge.svg)](https://codecov.io/gh/platisd/smartcar_shield)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/466/badge)](https://bestpractices.coreinfrastructure.org/projects/466)
-[![BCH compliance](https://bettercodehub.com/edge/badge/platisd/smartcar_shield?branch=master)](https://bettercodehub.com/)
 
 A versatile and easy to use vehicle platform for hobby & Academic projects
 
@@ -105,6 +104,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 * - x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
 * - X [Ultrasonic RCL-1601](https://www.aliexpress.com/w/wholesale-RCWL%2525252d1601.html) (optional)
+* - X [line follower board](https://kitronik.co.uk/products/5337-autonomous-robotics-platform-line-follower-board?_pos=1&_sid=673fd1bea&_ss=r)
 * - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) Optional
 * - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) Optional
 * - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional

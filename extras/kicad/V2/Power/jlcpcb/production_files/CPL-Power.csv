@@ -46,7 +46,7 @@ H5,Motor,JGA25-370 DC motor,70.0,-70.0,90.0,bottom
 H6,Motor,JGA25-370 DC motor,160.0,-70.0,90.0,bottom
 H7,Motor,JGA25-370 DC motor,160.0,-140.0,270.0,bottom
 H8,Motor,JGA25-370 DC motor,70.0,-140.0,270.0,bottom
-J1,Conn_01x02,AMASS_XT60-M_1x02_P7.20mm_Vertical,60.6,-113.2,180.0,top
+J1,XT60PW-M,CONN-TH_XT60PW-M,56.91,-113.71,180.0,top
 J2,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,137.45,-74.2,0.0,bottom
 J3,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,113.75,-65.9,180.0,bottom
 J4,Screw_Terminal_01x06,TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal,120.4,-130.5,180.0,bottom
@@ -70,7 +70,7 @@ R10,15k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,96.2,-133.4,0.0,bottom
 R11,150k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,104.6,-65.5,180.0,bottom
 R12,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-105.9,180.0,bottom
 R13,0.1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,68.45,-103.6,180.0,bottom
-SW1,SW_SPST,SPST Solder Plug Swith,53.8,-101.2,0.0,top
+SW1,SS01-BBIWA-RA20-R,SW-TH_SS01-BBIWA-RA20-R,55.32,-98.02,180.0,top
 U1,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,119.8,-84.4,270.0,bottom
 U2,TB6612FNG,SSOP-24_5.3x8.2mm_P0.65mm,117.4,-112.6,90.0,bottom
 U3,TPS5430DDAR,SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm_ThermalVias,97.625,-128.1,0.0,bottom

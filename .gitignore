@@ -19,3 +19,4 @@ coverage.info
 
 # Ignore vscode configuration
 .vscode
+*.zip

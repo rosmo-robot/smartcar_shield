@@ -79,10 +79,6 @@ The Rosmo project is working with a volunteer PCB designer to produce a first it
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
-Longer term
-
-- Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
-
 We hope Smartcar 2.0 interesting to makers, schools and universities. We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 
 ### Smartcar 2.0 BOM (In development)
@@ -152,5 +148,8 @@ Installed software may include
 Linorobot:
 ![Linorobot2](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/ROS2.png)
 
+###BLDC Version
+- Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
+- Perhaps using [Nema17 BLDC](https://www.omc-stepperonline.com/brushless-dc-motor?mfp=184-frame-size-mm[Nema%2017%20(42%20x%2042)]) to give access to [brackets](https://www.omc-stepperonline.com/nema-17-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m1) & [gearboxes](https://www.aliexpress.com/premium/nema-17-gearbox.html)
 ## License
 MIT & CERN-OHL-P for Smartcar 2.0 hardware

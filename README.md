@@ -45,13 +45,13 @@ Licence: CERN-OHL-P
  Features;
  
  * Supporting variety of [Software](https://github.com/rosmo-robot/smartcar_shield#microcontrollers)
- * Mounting space for SBC; Pi,Jetson Nano, [AI-64](https://beagleboard.org/ai-64) or similar
+ * Mounting space for SBC; Pi,Jetson Nano,[AI-64](https://beagleboard.org/ai-64) or similar
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
  * Support for the I2C/SPI [Featherwings](https://github.com/adafruit/awesome-feather#featherwings), including [Airlift](https://learn.adafruit.com/adafruit-airlift-featherwing-esp32-wifi-co-processor-featherwing/pinouts) 
  * Use of 4s LifePO4 or 3s Lipo batteries
- * Dual motor drivers for 4x4 mecanum drive
+ * Dual motor drivers for 4x4 & optional [mecanum drive](https://community.robotshop.com/forum/t/nema-17-mecanum-wheels/55901)
  * [UEXT sockets](https://www.olimex.com/Products/Modules/)
  * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
  * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)

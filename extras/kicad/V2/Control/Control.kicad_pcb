@@ -278,7 +278,7 @@
 
   (footprint "Z_mycustom_footprint_lib:SparkFun-micromod-footprint" (layer "F.Cu")
     (tedit 0) (tstamp 075e429e-af73-4cd9-8036-ec5707f4410c)
-    (at 39.095 -30.5125)
+    (at 19.985 -35.8625)
     (property "Sheetfile" "Control.kicad_sch")
     (property "Sheetname" "")
     (path "/e1b12bc3-a19f-4165-aefd-5cefc3370c39")
@@ -1725,7 +1725,7 @@
     (fp_line (start 13.388614 8.2785) (end 13.388614 -9.5015) (layer "F.SilkS") (width 0.254) (tstamp f779652c-5a6f-4c70-9244-5da6f43f0a10))
     (fp_arc (start 10.883614 -12.0415) (mid 12.657311 -11.285145) (end 13.388855 -9.501066) (layer "F.SilkS") (width 0.254) (tstamp 220735e6-9497-47ff-bb11-d94125a49d3c))
     (fp_arc (start -12.011386 -9.5015) (mid -11.267437 -11.297551) (end -9.471386 -12.0415) (layer "F.SilkS") (width 0.254) (tstamp 53737a26-d4bb-4709-8ed9-2a19261dc290))
-    (fp_arc (start 13.389614 8.2945) (mid 12.651813 10.068874) (end 10.882752 10.819321) (layer "F.SilkS") (width 0.254) (tstamp 8e2243c4-90c7-4a3c-88f7-edde808dcf76))
+    (fp_arc (start 13.389614 8.2945) (mid 12.651812 10.06887) (end 10.882752 10.819321) (layer "F.SilkS") (width 0.254) (tstamp 8e2243c4-90c7-4a3c-88f7-edde808dcf76))
     (fp_arc (start -9.505386 10.8185) (mid -11.279706 10.062522) (end -12.011614 8.278139) (layer "F.SilkS") (width 0.254) (tstamp 9e064749-9bc2-4764-80ce-b94684743daf))
     (fp_line (start 13.388614 10.8185) (end -12.011386 10.8185) (layer "F.CrtYd") (width 0.152) (tstamp 1470bcb2-3204-4eae-85c1-1c68c450f795))
     (fp_line (start -12.011386 10.8185) (end -12.011386 -12.0415) (layer "F.CrtYd") (width 0.152) (tstamp 2bae11d9-d540-4ca8-8000-e82eb5f69353))

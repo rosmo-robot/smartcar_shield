@@ -20,3 +20,6 @@ coverage.info
 # Ignore vscode configuration
 .vscode
 *.zip
+extras/kicad/V2/Control/Control.kicad_pcb
+*.zip
+extras/kicad/V2/Control/Control.kicad_pcb

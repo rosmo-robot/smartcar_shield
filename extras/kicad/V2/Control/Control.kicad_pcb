@@ -3110,6 +3110,9 @@
   (gr_line (start 63.8 38.5) (end 193.8 38.5) (layer "Edge.Cuts") (width 0.2) (tstamp f99b32d6-7f53-46c4-a3de-649eccf39ee5))
   (gr_arc (start 193.8 38.5) (mid 219.446921 93.5) (end 193.8 148.5) (layer "Edge.Cuts") (width 0.2) (tstamp fbaefbc4-aa3e-439d-89e3-d5f68700df50))
   (gr_line (start 253.8 93.5) (end 23.8 93.5) (layer "User.1") (width 0.15) (tstamp 811a720b-810a-412e-804f-943677215eb0))
+  (gr_text "paris is a shithole" (at 72.01 -55.35) (layer "F.Cu") (tstamp 5fbc85e4-de18-4845-b365-fff32ef435d3)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
 
   (zone (net 1) (net_name "GND") (layer "F.Cu") (tstamp d45a1d1d-f12c-4a87-8638-4b589bc3c349) (name "GND_TOP") (hatch edge 0.508)
     (connect_pads (clearance 0.3))

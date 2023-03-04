@@ -87,6 +87,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
 * 1 x [ESP32/ RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
+* 2 X Onboard TB6612FNG motor drivers
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
@@ -105,6 +106,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) Optional
 * - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
 * - X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
+* - Whatever you can bolt to your compute module and get ROS2 to understand
 
 Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    
@@ -151,6 +153,20 @@ Linorobot:
 ### BLDC Version
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
 - Perhaps using [Nema17 BLDC](https://www.omc-stepperonline.com/brushless-dc-motor?mfp=184-frame-size-mm[Nema%2017%20(42%20x%2042)]) to give access to [brackets](https://www.omc-stepperonline.com/nema-17-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m1) & [gearboxes](https://www.aliexpress.com/premium/nema-17-gearbox.html)
+
+### Mimimum functionality
+
+- ESP32 broadcasts wifi car webpage & you can drive it around.
+- ESP32 communicates with TB6612FNG driver
+
+### Maximum functionality
+
+- Jetson Onyx in carrier doing complex vision stuff & Lidar
+- ROS2 USB connection to Teensy Micromod
+- Teensy MicroMod taking input from several I2C sensors
+- Teensy communicates with STMxx on SimpleFOC board over CAN
+- STMxx on motors board is handling the magnetic encoders and complex SimpleFOC stuff
+
 
 ### License
 MIT & CERN-OHL-P for Smartcar 2.0 hardware

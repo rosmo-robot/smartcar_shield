@@ -154,19 +154,23 @@ Linorobot:
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
 - Perhaps using [Nema17 BLDC](https://www.omc-stepperonline.com/brushless-dc-motor?mfp=184-frame-size-mm[Nema%2017%20(42%20x%2042)]) to give access to [brackets](https://www.omc-stepperonline.com/nema-17-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m1) & [gearboxes](https://www.aliexpress.com/premium/nema-17-gearbox.html)
 
-### Mimimum functionality
+### Minimal functionality
 
 - ESP32 broadcasts wifi car webpage & you can drive it around.
 - ESP32 communicates with TB6612FNG driver
 
-### Maximum functionality
+### Pre-ROS Brushed motor functionality 
+- SBC runs Python
+- SBC connected to Teensy/ RP2040 over SPI via 7pin header
+- Teensy/RP2040 communicates with TB66xx drivers
+
+### Maximum ROS2 functionality
 
 - Jetson Onyx in carrier doing complex vision stuff & Lidar
 - ROS2 USB connection to Teensy Micromod
 - Teensy MicroMod taking input from several I2C sensors
-- Teensy communicates with STMxx on SimpleFOC board over CAN
+- Teensy communicates with STMxx on SimpleFOC board over CAN or SPI
 - STMxx on motors board is handling the magnetic encoders and complex SimpleFOC stuff
-
 
 ### License
 MIT & CERN-OHL-P for Smartcar 2.0 hardware

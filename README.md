@@ -45,7 +45,7 @@ Licence: CERN-OHL-P
  Features;
  
  * Supporting variety of [Software](https://github.com/rosmo-robot/smartcar_shield#microcontrollers)
- * Mounting space for SBC; Pi,Jetson Nano,[AI-64](https://beagleboard.org/ai-64) or similar
+ * Mounting space for SBC; Pi, Jetson Nano, [AI-64](https://beagleboard.org/ai-64), [Yuzuki Chameleon](https://github.com/YuzukiHD/YuzukiChameleon#readme) or similar 
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
  * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
@@ -85,8 +85,8 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 * 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
-* 4 x [Brushed motors](https://www.aliexpress.com/item/32872592243.html) (530rpm @ 12V) ~$33
-* 1 x [ESP32/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
+* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
+* 1 x [ESP32/ RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws

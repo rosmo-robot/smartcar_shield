@@ -1938,6 +1938,11 @@
     (pad "" np_thru_hole circle (at 43.45 -34.85 270) (size 2.5 2.5) (drill 2.5) (layers F&B.Cu *.Mask) (tstamp 8315c17e-3e34-4523-8816-6f20298da7e4))
     (pad "" np_thru_hole circle (at -42.7385 -35.063 270) (size 2.5 2.5) (drill 2.5) (layers F&B.Cu *.Mask) (tstamp b3670f01-5dd1-489b-9088-05358aa96b20))
     (pad "" np_thru_hole circle (at -42.6385 23.037 270) (size 2.5 2.5) (drill 2.5) (layers F&B.Cu *.Mask) (tstamp ed96a921-3013-44f0-bbb5-80fdd37ce76f))
+    (model "${KIPRJMOD}/3D/Jetson nano_fixed.step" hide
+      (offset (xyz -46 -20.5 9.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" (layer "F.Cu")
@@ -2047,6 +2052,11 @@
     (pad "" np_thru_hole circle (at -24.45 19 180) (size 2.7 2.7) (drill 2.7) (layers F&B.Cu *.Mask) (tstamp 487084fe-6ebb-4b14-9e9e-c5f0a6245717))
     (pad "" np_thru_hole circle (at 24.55 19 180) (size 2.7 2.7) (drill 2.7) (layers F&B.Cu *.Mask) (tstamp 7e4664ba-c488-4a7a-a84a-4277011c83a8))
     (pad "" np_thru_hole circle (at 24.55 -39 180) (size 2.7 2.7) (drill 2.7) (layers F&B.Cu *.Mask) (tstamp 8cbb4c73-8da6-4e44-a669-be6393f6138e))
+    (model "${KIPRJMOD}/3D/Raspberry Pi 4 Model B.STEP"
+      (offset (xyz 0 0 11))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 -90))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")

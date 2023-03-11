@@ -85,10 +85,11 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 * 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
-* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
-* 1 x [ESP32/ RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 2 X Onboard TB6612FNG motor drivers
 * 1 X Onboard LIS3DH
+* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
+* 1 x [RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
+* 1 X [ESP8266 module](https://www.olimex.com/Products/IoT/ESP8266/MOD-WIFI-ESP8266/open-source-hardware)
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
@@ -100,14 +101,14 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Optional sensors
 
-* - x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
+* - x [VL45L0x ToF distance sensors](https://shop.pimoroni.com/collections/breakout-garden?tags=Robotics) (optional)
 * - X [Ultrasonic RCL-1601](https://www.aliexpress.com/w/wholesale-RCWL%2525252d1601.html) (optional)
 * - X [line follower board](https://kitronik.co.uk/products/5337-autonomous-robotics-platform-line-follower-board?_pos=1&_sid=673fd1bea&_ss=r)
 * - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) Optional
 * - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) Optional
 * - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
 * - X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
-* - Whatever you can bolt to your compute module and get ROS2 to understand
+* - Whatever you can bolt to your compute module and get ROS2 to understand, eg Lidar
 
 Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    

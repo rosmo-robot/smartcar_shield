@@ -158,18 +158,25 @@ Linorobot:
 ### Minimal functionality
 
 - ESP32 broadcasts wifi car webpage & you can drive it around.
-- ESP32 communicates with TB6612FNG driver
+- ESP32 communicates with TB6612FNG drivers
+
+Or 
+
+- RP2040 communicates with a ESP8266 which broadasts a  wifi network
+- RP2040 provides a car webpage & you can drive it around.
+- RP2040 communicates with TB6612FNG drivers
 
 ### Pre-ROS Brushed motor functionality 
 - SBC runs Python
-- SBC connected to Teensy/ RP2040 over SPI via 7pin header
-- Teensy/RP2040 communicates with TB66xx drivers
+- SBC connected to ESP32/ Teensy/ RP2040 over SPI via 7pin header
+- ESP32/Teensy/RP2040 communicates with TB6612FNG drivers
 
 ### Maximum ROS2 functionality
 
 - Jetson Onyx in carrier doing complex vision stuff & Lidar
-- ROS2 USB connection to Teensy Micromod
-- Teensy MicroMod taking input from several I2C sensors
+- ROS2 USB connection to Teensy Micromod 
+- Teensy MicroMod runs Smartcar shield + MicroROS on top. 
+- Teensy MicroMod takes input from several I2C sensors
 - Teensy communicates with STMxx on SimpleFOC board over CAN or SPI
 - STMxx on motors board is handling the magnetic encoders and complex SimpleFOC stuff
 

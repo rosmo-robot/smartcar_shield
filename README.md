@@ -88,6 +88,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
 * 1 x [ESP32/ RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 2 X Onboard TB6612FNG motor drivers
+* 1 X Onboard LIS3DH
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws

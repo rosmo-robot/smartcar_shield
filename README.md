@@ -88,7 +88,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 2 X Onboard TB6612FNG motor drivers
 * 1 X Onboard LIS3DH
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
-* 1 x [RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
+* 1 x [RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17 [£11](https://www.unmannedtechshop.co.uk/product/sparkfun-micromod-rp2040-processor/)
 * 1 X [ESP8266 module](https://www.olimex.com/Products/IoT/ESP8266/MOD-WIFI-ESP8266/open-source-hardware)
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts

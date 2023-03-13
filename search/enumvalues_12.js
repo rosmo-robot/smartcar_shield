@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['xtalk_5fcalc_5f_5fxtalk_5ffor_5fenabled_5fspads_2897',['XTALK_CALC__XTALK_FOR_ENABLED_SPADS',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a5231232fe9ca8956dd8c48d4e65491a7',1,'VL53L1X']]],
+  ['xtalk_5fcalc_5f_5fxtalk_5ffor_5fenabled_5fspads_5f0_2898',['XTALK_CALC__XTALK_FOR_ENABLED_SPADS_0',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945af77902b69bc5cdba581f42dc09a44a46',1,'VL53L1X']]],
+  ['xtalk_5fcalc_5f_5fxtalk_5ffor_5fenabled_5fspads_5f1_2899',['XTALK_CALC__XTALK_FOR_ENABLED_SPADS_1',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a4e0bdc26501613f3572fce5390fe27da',1,'VL53L1X']]],
+  ['xtalk_5fcalc_5f_5fxtalk_5ffor_5fenabled_5fspads_5f2_2900',['XTALK_CALC__XTALK_FOR_ENABLED_SPADS_2',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a9b1ff9ef3dffd97fbda454b7d352e379',1,'VL53L1X']]],
+  ['xtalk_5fcalc_5f_5fxtalk_5ffor_5fenabled_5fspads_5f3_2901',['XTALK_CALC__XTALK_FOR_ENABLED_SPADS_3',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a1d87f036889ae4146e66b2c06f41ce4e',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5finner_5froi_5fkcps_2902',['XTALK_RESULT__AVG_XTALK_MM_INNER_ROI_KCPS',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a24f74d6f6b8e71b7e68ebcd22f48fc44',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5finner_5froi_5fkcps_5f0_2903',['XTALK_RESULT__AVG_XTALK_MM_INNER_ROI_KCPS_0',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945ae1195ef2e21ecef833d89886fe428b7e',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5finner_5froi_5fkcps_5f1_2904',['XTALK_RESULT__AVG_XTALK_MM_INNER_ROI_KCPS_1',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945aa3e7bd530f5b628348ae8017eb957e80',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5finner_5froi_5fkcps_5f2_2905',['XTALK_RESULT__AVG_XTALK_MM_INNER_ROI_KCPS_2',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a4ff6ed7d32718f6846f9b057aaf5f934',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5finner_5froi_5fkcps_5f3_2906',['XTALK_RESULT__AVG_XTALK_MM_INNER_ROI_KCPS_3',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a4d9ea683d27aa637bf84debf74e2985b',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5fouter_5froi_5fkcps_2907',['XTALK_RESULT__AVG_XTALK_MM_OUTER_ROI_KCPS',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945ac017653065da65f5a4a1d2242e633bc9',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5fouter_5froi_5fkcps_5f0_2908',['XTALK_RESULT__AVG_XTALK_MM_OUTER_ROI_KCPS_0',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a4a985680f27c1a9998ac166d4085ff65',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5fouter_5froi_5fkcps_5f1_2909',['XTALK_RESULT__AVG_XTALK_MM_OUTER_ROI_KCPS_1',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a48cb4ce789bbb2fe9f44a4caaed0fab0',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5fouter_5froi_5fkcps_5f2_2910',['XTALK_RESULT__AVG_XTALK_MM_OUTER_ROI_KCPS_2',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945ab09389aa740825be97f06ec568b03d48',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fmm_5fouter_5froi_5fkcps_5f3_2911',['XTALK_RESULT__AVG_XTALK_MM_OUTER_ROI_KCPS_3',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945ac23309cb0216f5be609094500839678b',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fuser_5froi_5fkcps_2912',['XTALK_RESULT__AVG_XTALK_USER_ROI_KCPS',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a53db3823317241bf95762533e0223ab4',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fuser_5froi_5fkcps_5f0_2913',['XTALK_RESULT__AVG_XTALK_USER_ROI_KCPS_0',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945ae7be1000e679296562744c804804a940',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fuser_5froi_5fkcps_5f1_2914',['XTALK_RESULT__AVG_XTALK_USER_ROI_KCPS_1',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945aafdf91d625af97b2c10f709a1de1340b',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fuser_5froi_5fkcps_5f2_2915',['XTALK_RESULT__AVG_XTALK_USER_ROI_KCPS_2',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a3456fe157821881202d03be4f0f5812f',1,'VL53L1X']]],
+  ['xtalk_5fresult_5f_5favg_5fxtalk_5fuser_5froi_5fkcps_5f3_2916',['XTALK_RESULT__AVG_XTALK_USER_ROI_KCPS_3',['../class_v_l53_l1_x.html#a630fe91f7dda45c2bab28dc4b906c945a13289a9d280bb8e92771aa467bfa147f',1,'VL53L1X']]],
+  ['xtalksignalfail_2917',['XtalkSignalFail',['../class_v_l53_l1_x.html#aebe19bf26b9d89b3a464014035aed6cba811a2a385853d94e591813aaef6d64ac',1,'VL53L1X']]]
+];

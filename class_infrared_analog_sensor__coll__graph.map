@@ -1,0 +1,4 @@
+<map id="InfraredAnalogSensor" name="InfraredAnalogSensor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,160,192,252"/>
+<area shape="rect" id="node2" href="$class_distance_sensor.html" title=" " alt="" coords="12,5,185,112"/>
+</map>

@@ -85,9 +85,11 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 * 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
-* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
-* 1 x [ESP32/ RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17
 * 2 X Onboard TB6612FNG motor drivers
+* 1 X Onboard basic IMU
+* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
+* 1 x [RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17 [£11](https://www.unmannedtechshop.co.uk/product/sparkfun-micromod-rp2040-processor/)
+* 1 X [ESP8266 module](https://www.olimex.com/Products/IoT/ESP8266/MOD-WIFI-ESP8266/open-source-hardware)
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
@@ -99,14 +101,14 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Optional sensors
 
-* - x [VL45L0x ToF distance sensors](https://www.aliexpress.com/item/32828144370.html) (optional)
+* - x [VL45L0x ToF distance sensors](https://shop.pimoroni.com/collections/breakout-garden?tags=Robotics) (optional)
+* - X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) (Optional)
 * - X [Ultrasonic RCL-1601](https://www.aliexpress.com/w/wholesale-RCWL%2525252d1601.html) (optional)
 * - X [line follower board](https://kitronik.co.uk/products/5337-autonomous-robotics-platform-line-follower-board?_pos=1&_sid=673fd1bea&_ss=r)
-* - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) Optional
-* - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) Optional
-* - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
-* - X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) Optional
-* - Whatever you can bolt to your compute module and get ROS2 to understand
+* - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) (Optional)
+* - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) (Optional)
+* - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) (Optional)
+* - Whatever you can bolt to your compute module and get ROS2 to understand, eg Lidar
 
 Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    
@@ -157,18 +159,25 @@ Linorobot:
 ### Minimal functionality
 
 - ESP32 broadcasts wifi car webpage & you can drive it around.
-- ESP32 communicates with TB6612FNG driver
+- ESP32 communicates with TB6612FNG drivers
+
+Or 
+
+- RP2040 communicates with a ESP8266 which broadasts a  wifi network
+- RP2040 provides a car webpage & you can drive it around.
+- RP2040 communicates with TB6612FNG drivers
 
 ### Pre-ROS Brushed motor functionality 
 - SBC runs Python
-- SBC connected to Teensy/ RP2040 over SPI via 7pin header
-- Teensy/RP2040 communicates with TB66xx drivers
+- SBC connected to ESP32/ Teensy/ RP2040 over SPI via 7pin header
+- ESP32/Teensy/RP2040 communicates with TB6612FNG drivers
 
 ### Maximum ROS2 functionality
 
 - Jetson Onyx in carrier doing complex vision stuff & Lidar
-- ROS2 USB connection to Teensy Micromod
-- Teensy MicroMod taking input from several I2C sensors
+- ROS2 USB connection to Teensy Micromod 
+- Teensy MicroMod runs Smartcar shield + MicroROS on top. 
+- Teensy MicroMod takes input from several I2C sensors
 - Teensy communicates with STMxx on SimpleFOC board over CAN or SPI
 - STMxx on motors board is handling the magnetic encoders and complex SimpleFOC stuff
 

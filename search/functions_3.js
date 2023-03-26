@@ -1,13 +1,13 @@
 var searchData=
 [
-  ['dataready_1560',['dataReady',['../class_v_l53_l1_x.html#a41b1f4f90e6813d7853bdfa0211a24ac',1,'VL53L1X']]],
-  ['delaymicros_1561',['delayMicros',['../class_arduino_runtime.html#a6c36cdbc291e64e51a3c9c3169359bed',1,'ArduinoRuntime::delayMicros()'],['../class_runtime.html#a501d0c2b41eca7cd6933716bbe1726db',1,'Runtime::delayMicros()']]],
-  ['delaymillis_1562',['delayMillis',['../class_arduino_runtime.html#a59e2d2cdcc4b2578d9cb04c63c1fe972',1,'ArduinoRuntime::delayMillis()'],['../class_runtime.html#a6276cf9e78df9d568659af143f712091',1,'Runtime::delayMillis()']]],
-  ['differentialcontrol_1563',['DifferentialControl',['../class_differential_control.html#a1484494d458f416c6b6bae87a3be3e26',1,'DifferentialControl']]],
-  ['directionalodometer_1564',['DirectionalOdometer',['../class_directional_odometer.html#ad166b08cd0c6d28fe9270641944e4aa2',1,'DirectionalOdometer::DirectionalOdometer(Runtime &amp;runtime, uint8_t pulsePin, uint8_t forwardWhenLowPin, InterruptCallback callback, unsigned long pulsesPerMeter)'],['../class_directional_odometer.html#aedf402807b54d9222494497a78ae918a',1,'DirectionalOdometer::DirectionalOdometer(Runtime &amp;runtime, DirectionalOdometerPins pins, InterruptCallback callback, unsigned long pulsesPerMeter)']]],
-  ['directionalodometerpins_1565',['DirectionalOdometerPins',['../struct_directional_odometer_pins.html#a86dbc88c3f7ec26f09598b418d8dd2cb',1,'DirectionalOdometerPins']]],
-  ['directionlessodometer_1566',['DirectionlessOdometer',['../class_directionless_odometer.html#a2ac9b53e96a2a366c0c26d91dbfa5dd7',1,'DirectionlessOdometer']]],
-  ['disablecruisecontrol_1567',['disableCruiseControl',['../class_distance_car.html#a8367dd4fc25bd040e294eadb77e34ae7',1,'DistanceCar']]],
-  ['distancecar_1568',['DistanceCar',['../class_distance_car.html#acca8c5361ee97ee43addd78fa21d89a5',1,'DistanceCar::DistanceCar(Runtime &amp;runtime, Control &amp;control, Odometer &amp;odometer)'],['../class_distance_car.html#a09fdff0fca9ba4a9440aa412ac2de39a',1,'DistanceCar::DistanceCar(Runtime &amp;runtime, Control &amp;control, Odometer &amp;odometerLeft, Odometer &amp;odometerRight)']]],
-  ['dualmotor_1569',['DualMotor',['../class_dual_motor.html#a5141a6f372ebe48c1f8543ee839946d8',1,'DualMotor']]]
+  ['dataready_1567',['dataReady',['../class_v_l53_l1_x.html#a41b1f4f90e6813d7853bdfa0211a24ac',1,'VL53L1X']]],
+  ['delaymicros_1568',['delayMicros',['../class_arduino_runtime.html#a6c36cdbc291e64e51a3c9c3169359bed',1,'ArduinoRuntime::delayMicros()'],['../class_runtime.html#a501d0c2b41eca7cd6933716bbe1726db',1,'Runtime::delayMicros()']]],
+  ['delaymillis_1569',['delayMillis',['../class_arduino_runtime.html#a59e2d2cdcc4b2578d9cb04c63c1fe972',1,'ArduinoRuntime::delayMillis()'],['../class_runtime.html#a6276cf9e78df9d568659af143f712091',1,'Runtime::delayMillis()']]],
+  ['differentialcontrol_1570',['DifferentialControl',['../class_differential_control.html#a1484494d458f416c6b6bae87a3be3e26',1,'DifferentialControl']]],
+  ['directionalodometer_1571',['DirectionalOdometer',['../class_directional_odometer.html#ad166b08cd0c6d28fe9270641944e4aa2',1,'DirectionalOdometer::DirectionalOdometer(Runtime &amp;runtime, uint8_t pulsePin, uint8_t forwardWhenLowPin, InterruptCallback callback, unsigned long pulsesPerMeter)'],['../class_directional_odometer.html#aedf402807b54d9222494497a78ae918a',1,'DirectionalOdometer::DirectionalOdometer(Runtime &amp;runtime, DirectionalOdometerPins pins, InterruptCallback callback, unsigned long pulsesPerMeter)']]],
+  ['directionalodometerpins_1572',['DirectionalOdometerPins',['../struct_directional_odometer_pins.html#a86dbc88c3f7ec26f09598b418d8dd2cb',1,'DirectionalOdometerPins']]],
+  ['directionlessodometer_1573',['DirectionlessOdometer',['../class_directionless_odometer.html#a2ac9b53e96a2a366c0c26d91dbfa5dd7',1,'DirectionlessOdometer']]],
+  ['disablecruisecontrol_1574',['disableCruiseControl',['../class_distance_car.html#a8367dd4fc25bd040e294eadb77e34ae7',1,'DistanceCar']]],
+  ['distancecar_1575',['DistanceCar',['../class_distance_car.html#acca8c5361ee97ee43addd78fa21d89a5',1,'DistanceCar::DistanceCar(Runtime &amp;runtime, Control &amp;control, Odometer &amp;odometer)'],['../class_distance_car.html#a09fdff0fca9ba4a9440aa412ac2de39a',1,'DistanceCar::DistanceCar(Runtime &amp;runtime, Control &amp;control, Odometer &amp;odometerLeft, Odometer &amp;odometerRight)']]],
+  ['dualmotor_1576',['DualMotor',['../class_dual_motor.html#a5141a6f372ebe48c1f8543ee839946d8',1,'DualMotor']]]
 ];

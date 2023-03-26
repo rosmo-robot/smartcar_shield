@@ -14,9 +14,9 @@ class Smartcar_IMU {
     void begin();
     float getHeading();
   private:
-    #if defined(USE_ADAFRUIT_BNO08x)
+    #if defined(USE_ADAFRUIT_BNO08x) https://github.com/adafruit/Adafruit_BNO08x/tree/master/src
       Adafruit_BNO08x _imu;
-    #elif defined(USE_MPU9250_WE)
+    #elif defined(USE_MPU9250_WE) https://github.com/wollewald/MPU9250_WE
       MPU9250_WE _imu;
     #endif
 };

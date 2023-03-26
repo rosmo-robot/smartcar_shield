@@ -72,31 +72,32 @@ $(function() {
 <a href="_smartcar___i_m_u_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SMARTCAR_IMU_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define SMARTCAR_IMU_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;Adafruit_BNO08x.h&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_smartcar___i_m_u.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_smartcar___i_m_u.html">Smartcar_IMU</a> : <span class="keyword">public</span> Adafruit_BNO08x {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_smartcar___i_m_u.html#a28a0307611b1a5b62bd90e3dec54872b">    8</a></span>&#160;  <a class="code" href="class_smartcar___i_m_u.html#a28a0307611b1a5b62bd90e3dec54872b">Smartcar_IMU</a>(TwoWire *wire = &amp;Wire, int32_t sensorID = -1)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;      : Adafruit_BNO08x(sensorID, wire) {}</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_smartcar___i_m_u.html#a0e54d0d10aa84a418bfd24714512663d">   10</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_smartcar___i_m_u.html#a0e54d0d10aa84a418bfd24714512663d">begin</a>() { Adafruit_BNO08x::begin(); }</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_smartcar___i_m_u.html#a4ab879da9ab897315ee1f621a6a22b7e">   11</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="class_smartcar___i_m_u.html#a4ab879da9ab897315ee1f621a6a22b7e">setRotationVector</a>(uint16_t interval_ms) {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    Adafruit_BNO08x::enableRotationVector(interval_ms);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  }</div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_smartcar___i_m_u.html#add35a32c05103fd0fd420501ed339908">   14</a></span>&#160;  <span class="keywordtype">float</span> <a class="code" href="class_smartcar___i_m_u.html#add35a32c05103fd0fd420501ed339908">getHeading</a>() {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    imu::Quaternion quat = getQuat();</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    imu::Vector&lt;3&gt; euler = quat.toEuler();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordtype">float</span> heading = euler.y() * 180.0 / M_PI;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> heading;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;};</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif // SMARTCAR_IMU_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#if defined(USE_ADAFRUIT_BNO08x)</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">  #include &lt;Adafruit_BNO08x.h&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">  #include &lt;Adafruit_Sensor.h&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#elif defined(USE_MPU9250_WE)</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">  #include &lt;MPU9250_WE.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_smartcar___i_m_u.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_smartcar___i_m_u.html">Smartcar_IMU</a> {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="class_smartcar___i_m_u.html#ac852ae8974ffca85145049d6ede025ce">Smartcar_IMU</a>();</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_smartcar___i_m_u.html#a0e54d0d10aa84a418bfd24714512663d">begin</a>();</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="class_smartcar___i_m_u.html#add35a32c05103fd0fd420501ed339908">getHeading</a>();</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">    #if defined(USE_ADAFRUIT_BNO08x)</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;      Adafruit_BNO08x _imu;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">    #elif defined(USE_MPU9250_WE)</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;      MPU9250_WE _imu;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
-<div class="ttc" id="aclass_smartcar___i_m_u_html"><div class="ttname"><a href="class_smartcar___i_m_u.html">Smartcar_IMU</a></div><div class="ttdef"><b>Definition:</b> <a href="_smartcar___i_m_u_8h_source.html#l00006">Smartcar_IMU.h:6</a></div></div>
-<div class="ttc" id="aclass_smartcar___i_m_u_html_a28a0307611b1a5b62bd90e3dec54872b"><div class="ttname"><a href="class_smartcar___i_m_u.html#a28a0307611b1a5b62bd90e3dec54872b">Smartcar_IMU::Smartcar_IMU</a></div><div class="ttdeci">Smartcar_IMU(TwoWire *wire=&amp;Wire, int32_t sensorID=-1)</div><div class="ttdef"><b>Definition:</b> <a href="_smartcar___i_m_u_8h_source.html#l00008">Smartcar_IMU.h:8</a></div></div>
-<div class="ttc" id="aclass_smartcar___i_m_u_html_a0e54d0d10aa84a418bfd24714512663d"><div class="ttname"><a href="class_smartcar___i_m_u.html#a0e54d0d10aa84a418bfd24714512663d">Smartcar_IMU::begin</a></div><div class="ttdeci">void begin()</div><div class="ttdef"><b>Definition:</b> <a href="_smartcar___i_m_u_8h_source.html#l00010">Smartcar_IMU.h:10</a></div></div>
-<div class="ttc" id="aclass_smartcar___i_m_u_html_add35a32c05103fd0fd420501ed339908"><div class="ttname"><a href="class_smartcar___i_m_u.html#add35a32c05103fd0fd420501ed339908">Smartcar_IMU::getHeading</a></div><div class="ttdeci">float getHeading()</div><div class="ttdef"><b>Definition:</b> <a href="_smartcar___i_m_u_8h_source.html#l00014">Smartcar_IMU.h:14</a></div></div>
-<div class="ttc" id="aclass_smartcar___i_m_u_html_a4ab879da9ab897315ee1f621a6a22b7e"><div class="ttname"><a href="class_smartcar___i_m_u.html#a4ab879da9ab897315ee1f621a6a22b7e">Smartcar_IMU::setRotationVector</a></div><div class="ttdeci">void setRotationVector(uint16_t interval_ms)</div><div class="ttdef"><b>Definition:</b> <a href="_smartcar___i_m_u_8h_source.html#l00011">Smartcar_IMU.h:11</a></div></div>
+<div class="ttc" id="aclass_smartcar___i_m_u_html"><div class="ttname"><a href="class_smartcar___i_m_u.html">Smartcar_IMU</a></div><div class="ttdef"><b>Definition:</b> <a href="_smartcar___i_m_u_8h_source.html#l00011">Smartcar_IMU.h:11</a></div></div>
+<div class="ttc" id="aclass_smartcar___i_m_u_html_a0e54d0d10aa84a418bfd24714512663d"><div class="ttname"><a href="class_smartcar___i_m_u.html#a0e54d0d10aa84a418bfd24714512663d">Smartcar_IMU::begin</a></div><div class="ttdeci">void begin()</div></div>
+<div class="ttc" id="aclass_smartcar___i_m_u_html_add35a32c05103fd0fd420501ed339908"><div class="ttname"><a href="class_smartcar___i_m_u.html#add35a32c05103fd0fd420501ed339908">Smartcar_IMU::getHeading</a></div><div class="ttdeci">float getHeading()</div></div>
+<div class="ttc" id="aclass_smartcar___i_m_u_html_ac852ae8974ffca85145049d6ede025ce"><div class="ttname"><a href="class_smartcar___i_m_u.html#ac852ae8974ffca85145049d6ede025ce">Smartcar_IMU::Smartcar_IMU</a></div><div class="ttdeci">Smartcar_IMU()</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

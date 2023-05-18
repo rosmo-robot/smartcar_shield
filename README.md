@@ -130,10 +130,11 @@ Used as standalone devices for basic robot control, or connected to the GPIO of 
 We intend to develop some scripts for setting up robotics software on commonly used Single Board Computers which can be added to the basic microcontroller based platform. The OS will be Ubuntu 22.04 LTS. 
 
 The supported hardware may include; 
-
+- [Yuzuki chameleon (OSHW)](https://github.com/YuzukiHD/YuzukiChameleon)
 - Pi4
 - Jetson Nano
-- [Beaglebone Ai-64](https://beagleboard.org/ai-64) 
+- Ant micro [Jetson Orin baseboard](https://github.com/antmicro/jetson-orin-baseboard)
+- [Beaglebone Ai-64 (OSHW)](https://beagleboard.org/ai-64) 
 - [Radxa CM5](https://wiki.radxa.com/Rock5/CM) in a [carrier](https://github.com/dronecz/Minimal_carrier_board_for_CM4/tree/main/rev_C).
 
 Installed software may include

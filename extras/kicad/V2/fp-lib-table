@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "smartcar_FP_BKP")(type "KiCad")(uri "${KIPRJMOD}/smartcar_FP_BKP.pretty")(options "")(descr ""))
-  (lib (name "smartcar_FP1_BKP")(type "KiCad")(uri "${KIPRJMOD}/smartcar_FP1_BKP.pretty")(options "")(descr ""))
-)

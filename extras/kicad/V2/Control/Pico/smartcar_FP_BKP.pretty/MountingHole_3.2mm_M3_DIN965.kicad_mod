@@ -1,0 +1,23 @@
+(footprint "MountingHole_3.2mm_M3_DIN965" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
+  (tags "mounting hole 3.2mm no annular m3 din965")
+  (attr board_only exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -3.8) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 92f667d3-f214-46eb-9b75-2ff14ea080d1)
+  )
+  (fp_text value "MountingHole_3.2mm_M3_DIN965" (at 0 3.8) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a9284420-522c-4e14-aaf8-db98e29f09fc)
+  )
+  (fp_text user "${REFERENCE}" (at 0.3 0) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp da45fadb-9d9d-4eef-aa2d-d4c51cc2d9a3)
+  )
+  (fp_circle (center 0 0) (end 2.8 0)
+    (stroke (width 0.15) (type solid)) (fill none) (layer "Cmts.User") (tstamp 857469f3-434e-4548-9ed6-b6535b88f0b3))
+  (fp_circle (center 0 0) (end 3.05 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 4f3539ad-81be-4ef8-a11a-cf6970900852))
+  (pad "" np_thru_hole circle (at 0 0 180) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 7836159e-7d80-403e-a5bc-2bbeed9552ba))
+)

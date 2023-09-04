@@ -57,20 +57,10 @@ Licence: CERN-OHL-P
 
 ### Project Status
 
- * One developer interested in supporting [Arduino/Smartcar shield](https://github.com/platisd/smartcar_shield#software) 
- * One developer interested in supporting Python
- * One developer interested in [supporting ROS2](https://adityakamath.github.io/projects/)
- * PCB volunteer working on the project, motors board complete
- * [Kicad files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
+
+ * Motor board ordered
+ * [control board files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  
-
-The Rosmo project is working with a volunteer PCB designer to produce a first iteration of the Smartcar 2.0 robot. This involves the design and layout of two interconnected PCB's;
-
-1) The 'Modules' board - Significant revision from v1 that you see above. See below for concept layouts & BOM
-
-![Optional compute concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/modules.png)
-
-2) the 'Motors' board - Additional motor driver to enable mecanum drive
 
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
@@ -82,10 +72,8 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
 * 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
 * 2 X Onboard TB6612FNG motor drivers
-* 1 X Onboard basic IMU
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
-* 1 x [RPI/ Teensy Micromod](https://www.sparkfun.com/micromod#processor_boards)~$17 [£11](https://www.unmannedtechshop.co.uk/product/sparkfun-micromod-rp2040-processor/)
-* 1 X [ESP8266 module](https://www.olimex.com/Products/IoT/ESP8266/MOD-WIFI-ESP8266/open-source-hardware)
+* 1 x [Olimex Pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)
 * 4 x M6 (30mm) screws
 * 4 x M6 nuts
 * 16 x M3 (10mm) screws
@@ -108,18 +96,12 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
    
-### Microcontrollers
-The robot can have different microcontrollers inserted into the Micromod socket depending on the use case.
 
-### Esp32 (Micromod)
+### Optional alternative Microcontroller Esp32 S3 (Waveshare)
 - Used with [Smartcar Library](https://github.com/platisd/smartcar_shield#software)
+- [Linorobot 2 via wifi transport](https://github.com/hippo5329/linorobot2_hardware)
 - May also support [Microblocks](https://microblocks.fun/) 
 
-Used as standalone devices for basic robot control, or connected to the GPIO of a Single Board Computer for more complex programing.
-
-### Teensy (Micromod)
-
-- Used for ROS2. Runs MicroROS. Connected to the USB of a Single board computer.
 
 ### Single Board Computers (SBC)
 
@@ -127,11 +109,8 @@ We intend to develop some scripts for setting up robotics software on commonly u
 
 The supported hardware may include; 
 - [Yuzuki chameleon (OSHW)](https://github.com/YuzukiHD/YuzukiChameleon)
-- Pi4
-- Jetson Nano
-- Ant micro [Jetson Orin baseboard](https://github.com/antmicro/jetson-orin-baseboard)
+- [Beaglebone Play](https://www.beagleboard.org/boards/beagleplay)
 - [Beaglebone Ai-64 (OSHW)](https://beagleboard.org/ai-64) 
-- [Radxa CM5](https://wiki.radxa.com/Rock5/CM) in a [carrier](https://github.com/dronecz/Minimal_carrier_board_for_CM4/tree/main/rev_C).
 
 Installed software may include
 

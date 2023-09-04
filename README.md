@@ -45,13 +45,12 @@ Licence: CERN-OHL-P
  Features;
  
  * Supporting variety of [Software](https://github.com/rosmo-robot/smartcar_shield#microcontrollers)
- * Mounting space for SBC; Pi, Jetson Nano, [AI-64](https://beagleboard.org/ai-64), [Yuzuki Chameleon](https://github.com/YuzukiHD/YuzukiChameleon#readme) or similar 
+ * Mounting space for SBC; Pi, Jetson Nano, AI64 etc 
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
- * Reference implimentation of [ROS2/Linorobot2](https://github.com/linorobot/linorobot2#linorobot2)
- * Use of [MicroMod MCU](https://www.sparkfun.com/micromod#processor_boards)
+ * Reference implimentation of [ROS2/Linorobot2](https://github.com/hippo5329/linorobot2_hardware)
  * Use of 4s LifePO4 or 3s Lipo batteries
  * Dual motor drivers for 4x4 & optional [mecanum drive](https://community.robotshop.com/forum/t/nema-17-mecanum-wheels/55901)
- * [mikroBUS sockets](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
+ * [mikroBUS socket](https://www.mikroe.com/mikrobus-shuttle-127mm-2x8-pin-box-header-smd-male)
  * Expanded I2C/ SPI connectors using [Breakout Garden](https://shop.pimoroni.com/collections/breakout-garden), [Qwiic](https://soldered.com/categories/easyc-2/)
 
 
@@ -83,15 +82,13 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * 2 x [Front Bumper](https://www.aliexpress.com/item/1005005024927428.html)
 
 
-### Optional sensors
+### Optional add ons
 
 * - x [VL45L0x ToF distance sensors](https://shop.pimoroni.com/collections/breakout-garden?tags=Robotics) (optional)
 * - X [BNO-85 IMU](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) (Optional)
-* - X [Ultrasonic RCL-1601](https://www.aliexpress.com/w/wholesale-RCWL%2525252d1601.html) (optional)
-* - X [line follower board](https://kitronik.co.uk/products/5337-autonomous-robotics-platform-line-follower-board?_pos=1&_sid=673fd1bea&_ss=r)
-* - X ~$7 [MOD-MPU6050](https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/open-source-hardware) (Optional)
-* - X ~$15 [lsm303d](https://shop.pimoroni.com/products/lsm303d-6dof-motion-sensor-breakout) (Optional)
-* - X ~$15 [MOD-MPU9150](https://learn.adafruit.com/adafruit-9-dof-orientation-imu-fusion-breakout-bno085?view=all) (Optional)
+* - X [Servo controller](https://www.tindie.com/products/alexchu/zio-16-servo-controller-qwiic/)
+* - X [line follower board](https://www.smart-prototyping.com/Zio-Line-Finder-Qwiic-4-Transceivers)
+* - X [SPI or I2C Click boards](https://www.mikroe.com/click?interface*=spi,i2c,spi,i2c)
 * - Whatever you can bolt to your compute module and get ROS2 to understand, eg Lidar
 
 Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 

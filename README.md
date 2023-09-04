@@ -44,8 +44,7 @@ Licence: CERN-OHL-P
 
  Features;
  
- * Supporting variety of [Software](https://github.com/rosmo-robot/smartcar_shield#microcontrollers)
- * Mounting space for SBC; Pi, Jetson Nano, AI64 etc 
+ * Mounting space for SBC; Beagle AI64, Play, Pi, Jetson Nano, etc 
  * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/hippo5329/linorobot2_hardware)
  * Use of 4s LifePO4 or 3s Lipo batteries
@@ -56,8 +55,8 @@ Licence: CERN-OHL-P
 
 ### Project Status
 
-
  * Motor board ordered
+ * Design review on Pico board
  * [control board files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
  
 

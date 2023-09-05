@@ -51,7 +51,7 @@ Licence: CERN-OHL-P
 
 ### Project Status
 
- * [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb] ordered awaiting testing
+ * [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb) ordered awaiting testing
    
  * [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) design review pre-order
  

@@ -62,7 +62,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb] ordered awaiting testing
+* 1 x [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb) ordered awaiting testing
 * 1 X [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) 
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
 * 1 x [Olimex Pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)

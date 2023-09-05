@@ -8,14 +8,10 @@
 
 A versatile and easy to use vehicle platform for hobby & Academic projects
 
-- [Smartcar 1.0](#smartcar-10-current)
-- [Smartcar 2.0](#Proposed-Smartcar-2.0-development)
-- [Microcontrollers](#Microcontrollers)
-- [Single Board Computers](#Single-Board-Computers (SBC))
-- [License](#license)
 
 ## Description
-This repository, includes everything necessary to set up a Smartcar 2.0.
+This repository, includes everything necessary to set up a Smartcar 2.0. The 100% open hardware robot down to component level.
+
 The Smartcar, is a vehicular educational platform, which enables the user to develop various robotic applications in an affordable, pedagogic and easy way. It is intended to be accessible for persons with basic programming knowledge and little to no experience of electronics. It additionally supports the needs of more experienced users.
 
 ### Smartcar 1.0 (Existing)
@@ -55,11 +51,10 @@ Licence: CERN-OHL-P
 
 ### Project Status
 
- * Motor board ordered
- * Design review on Pico board
- * [control board files in progress](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) created
+ * [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb] ordered awaiting testing
+   
+ * [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) design review pre-order
  
-
 
 ![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
 
@@ -67,15 +62,10 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Modules board  TBC (rev.3)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) ~$15 
-* 1 x [Motor board TBC(rev. 1)](https://github.com/rosmo-robot/smartcar_shield/tree/master/extras/kicad) $5 bare PCB cost (no fab)
-* 2 X Onboard TB6612FNG motor drivers
+* 1 x [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb] ordered awaiting testing
+* 1 X [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) 
 * 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
 * 1 x [Olimex Pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)
-* 4 x M6 (30mm) screws
-* 4 x M6 nuts
-* 16 x M3 (10mm) screws
-* 16 x M3 nuts
 * 2 x [40pin 2.54 pitch long male pin headers]()
 * 1 x 3S [LifePO4 -recommended](https://www.pulsebattery.com/pages/search-results-page?q=lifePO4%203s) 105 x 33 x 25 or potentially dangerous 3S Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21
 * 2 x [Front Bumper](https://www.aliexpress.com/item/1005005024927428.html)
@@ -88,11 +78,9 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * - X [Servo controller](https://www.tindie.com/products/alexchu/zio-16-servo-controller-qwiic/)
 * - X [line follower board](https://www.smart-prototyping.com/Zio-Line-Finder-Qwiic-4-Transceivers)
 * - X [SPI or I2C Click boards](https://www.mikroe.com/click?interface*=spi,i2c,spi,i2c)
-* - Whatever you can bolt to your compute module and get ROS2 to understand, eg Lidar
+* - Whatever you can bolt to your compute module and get ROS2 to understand, eg cameras, Lidar
 
-Photos of [additional sensors & peripherals](https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/Components/Img/readme.md) 
-   
-
+  
 ### Optional alternative Microcontroller Esp32 S3 (Waveshare)
 - Used with [Smartcar Library](https://github.com/platisd/smartcar_shield#software)
 - [Linorobot 2 via wifi transport](https://github.com/hippo5329/linorobot2_hardware)

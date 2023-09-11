@@ -78,6 +78,7 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 * - X [Servo controller](https://www.tindie.com/products/alexchu/zio-16-servo-controller-qwiic/)
 * - X [line follower board](https://www.smart-prototyping.com/Zio-Line-Finder-Qwiic-4-Transceivers)
 * - X [SPI or I2C Click boards](https://www.mikroe.com/click?interface*=spi,i2c,spi,i2c)
+* - X [Aluminum base plate](https://www.aliexpress.com/i/4000265488897.html)
 * - Whatever you can bolt to your compute module and get ROS2 to understand, eg cameras, Lidar
 
   

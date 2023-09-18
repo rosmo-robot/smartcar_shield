@@ -14,26 +14,6 @@ This repository, includes everything necessary to set up a Smartcar 2.0. The 100
 
 The Smartcar, is a vehicular educational platform, which enables the user to develop various robotic applications in an affordable, pedagogic and easy way. It is intended to be accessible for persons with basic programming knowledge and little to no experience of electronics. It additionally supports the needs of more experienced users.
 
-### Smartcar 1.0 (Existing)
-
-![smartcar platform](https://i.imgur.com/cFrq2Wj.jpg)
-
-The existing Smartcar platform is a complete hardware solution for your hobby-grade, connected vehicle project.
-It is comprised of the chassis, made out of printed circuit boards, stacked on each other and an
-ESP32 development board that drives the motors, controls the sensors and communicates with the
-world via WiFi and Bluetooth.
-
-There are 4 motors with directional odometers which enable not only to determine how much the
-wheels have moved but also the direction they spin. See [Smartcar 1.0 documentation](https://github.com/platisd/smartcar_shield#smartcar-shield)
-
-The Smartcar 2.0 project is a redesign of the hardware, retaining software compatibility with the orginal platform, but adding additional hardware interfaces and additional supported software.
-
-![Platform V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/smart.jpg)
-
-![Motors V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/encoders.jpg)
-
-![Driver V1](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/driver.jpg)
-
 ## Smartcar 2.0 (In development)
 
 Licence: CERN-OHL-P
@@ -41,7 +21,7 @@ Licence: CERN-OHL-P
  Features;
  
  * Mounting space for SBC; Beagle AI64, Play, Pi, Jetson Nano, etc 
- * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md#software)
+ * Reference implimentation of Arduino / [Smartcar Library](https://github.com/rosmo-robot/smartcar_shield/blob/master/README.md
  * Reference implimentation of [ROS2/Linorobot2](https://github.com/hippo5329/linorobot2_hardware)
  * Use of 4s LifePO4 or 3s Lipo batteries
  * Dual motor drivers for 4x4 & optional [mecanum drive](https://community.robotshop.com/forum/t/nema-17-mecanum-wheels/55901)
@@ -53,10 +33,10 @@ Licence: CERN-OHL-P
 
  * [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb) ordered awaiting testing
    
- * [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) design review pre-order
+ * [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) ordered awaiting testing
  
 
-![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/motors.png)
+![Dual driver concept](https://raw.githubusercontent.com/rosmo-robot/smartcar_shield/master/extras/images/45smartcar.jpeg)
 
 We hope Smartcar 2.0 interesting to makers, schools and universities. We realise there's no such thing as a universal robot platform, and there are risks in trying to be all things to all people. We however drawn to seeing what's possible with modularity and testing the edges of interoperability.
 
@@ -117,30 +97,6 @@ Linorobot:
 - Offering an alternate/upgraded BLDC motor board using SimpleFOC, but re-using the 'Modules' board
 - Perhaps using [Nema17 BLDC](https://www.omc-stepperonline.com/brushless-dc-motor?mfp=184-frame-size-mm[Nema%2017%20(42%20x%2042)]) to give access to [brackets](https://www.omc-stepperonline.com/nema-17-bracket-for-stepper-motor-and-geared-stepper-motor-alloy-steel-bracket-st-m1) & [gearboxes](https://www.aliexpress.com/premium/nema-17-gearbox.html)
 
-### Minimal functionality
-
-- ESP32 broadcasts wifi car webpage & you can drive it around.
-- ESP32 communicates with TB6612FNG drivers
-
-Or 
-
-- RP2040 communicates with a ESP8266 which broadasts a  wifi network
-- RP2040 provides a car webpage & you can drive it around.
-- RP2040 communicates with TB6612FNG drivers
-
-### Pre-ROS Brushed motor functionality 
-- SBC runs Python
-- SBC connected to ESP32/ Teensy/ RP2040 over SPI via 7pin header
-- ESP32/Teensy/RP2040 communicates with TB6612FNG drivers
-
-### Maximum ROS2 functionality
-
-- Jetson Onyx in carrier doing complex vision stuff & Lidar
-- ROS2 USB connection to Teensy Micromod 
-- Teensy MicroMod runs Smartcar shield + MicroROS on top. 
-- Teensy MicroMod takes input from several I2C sensors
-- Teensy communicates with STMxx on SimpleFOC board over CAN or SPI
-- STMxx on motors board is handling the magnetic encoders and complex SimpleFOC stuff
 
 ### License
 MIT & CERN-OHL-P for Smartcar 2.0 hardware

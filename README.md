@@ -62,9 +62,9 @@ We hope Smartcar 2.0 interesting to makers, schools and universities. We realise
 
 ### Smartcar 2.0 BOM (In development)
 
-* 1 x [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb) ordered awaiting testing
-* 1 X [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) 
-* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) ~$33
+* 1 x [Motor board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Power/Power.kicad_pcb) ordered awaiting testing £11
+* 1 X [Pico board](https://kicanvas.org/?github=https://github.com/rosmo-robot/smartcar_shield/blob/master/extras/kicad/V2/Control/Pico/smartcar_control_2.0.kicad_pcb) £5
+* 4 x [Brushed motors](https://www.aliexpress.com/item/1005004242997257.html) (530rpm @ 12V) £40.50
 * 1 x [Olimex Pico](https://www.olimex.com/Products/MicroPython/RP2040-PICO30/open-source-hardware)
 * 2 x [40pin 2.54 pitch long male pin headers]()
 * 1 x 3S [LifePO4 -recommended](https://www.pulsebattery.com/pages/search-results-page?q=lifePO4%203s) 105 x 33 x 25 or potentially dangerous 3S Lipo battery 135mm*42mm*25mm 304g [~$21 2200Mah](https://www.aliexpress.com/item/1005001419560964.html) > [~$38 4000Mah](https://www.aliexpress.com/item/1005004335619259.html) 135x42x21
